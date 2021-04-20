@@ -1,0 +1,3235 @@
+{
+  "_appversion": "v2.3.3",
+  "_variant": "au5518",
+  "_version": 3,
+  "algorithm": {
+    "ERROR": [],
+    "INPUT": {
+      "0N": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 14,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "0P": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 7,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "1N": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 7,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "1P": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 21,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "2N": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 14,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "2P": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 7,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "3N": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 7,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "3P": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 21,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "4N": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 14,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "4P": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 28,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      },
+      "OCXO": {
+        "bypass": false,
+        "divn1": {
+          "denominator": 4294967295,
+          "int": 7,
+          "numerator": 0
+        },
+        "doubler": false,
+        "fin_int": "50000000/7"
+      }
+    },
+    "OUTPUT": {
+      "1": {
+        "coarse": 2,
+        "fine": 0
+      },
+      "10": {
+        "coarse": 7500000002,
+        "fine": 0
+      },
+      "11": {
+        "coarse": 2750000002,
+        "fine": 0
+      },
+      "2": {
+        "coarse": 6750000002,
+        "fine": 0
+      },
+      "3": {
+        "coarse": 1100000002,
+        "fine": 0
+      },
+      "5": {
+        "coarse": 2,
+        "fine": 0
+      },
+      "6": {
+        "coarse": 4500000002,
+        "fine": 0
+      },
+      "7": {
+        "coarse": 2,
+        "fine": 0
+      },
+      "9": {
+        "coarse": 500000002,
+        "fine": 0
+      }
+    },
+    "PLL": {
+      "A": {
+        "divn": {
+          "denominator": 4294967295,
+          "int": 51,
+          "mode_int_frac": 0,
+          "numerator": 3976821570
+        },
+        "divn2": {
+          "denominator": 4294967295,
+          "int": 770,
+          "mode_int_frac": 1,
+          "numerator": 0
+        },
+        "divo": {
+          "11": 11,
+          "3": 11,
+          "7": 11
+        },
+        "fvco": "5500000000",
+        "icp": 0
+      },
+      "B": {
+        "divn": {
+          "denominator": 4294967295,
+          "int": 69,
+          "mode_int_frac": 0,
+          "numerator": 1908874354
+        },
+        "divn2": {
+          "denominator": 4294967295,
+          "int": 1050,
+          "mode_int_frac": 1,
+          "numerator": 0
+        },
+        "divo": {
+          "10": 50,
+          "2": 75,
+          "6": 30
+        },
+        "fvco": "7500000000",
+        "icp": 0
+      },
+      "C": {
+        "divn": {
+          "denominator": 4294967295,
+          "int": 46,
+          "mode_int_frac": 0,
+          "numerator": 1272582903
+        },
+        "divn2": {
+          "denominator": 4294967295,
+          "int": 700,
+          "mode_int_frac": 1,
+          "numerator": 0
+        },
+        "divo": {
+          "1": 50,
+          "5": 10,
+          "9": 10
+        },
+        "fvco": "5000000000",
+        "icp": 0
+      },
+      "FT": {
+        "divn": {
+          "denominator": 4294967295,
+          "int": 18,
+          "mode_int_frac": 0,
+          "numerator": 522667978
+        },
+        "divn2": {
+          "denominator": 4294967295,
+          "int": 274,
+          "mode_int_frac": 1,
+          "numerator": 0
+        },
+        "fvco": "13700000000/7"
+      }
+    },
+    "WARNING": []
+  },
+  "settings": null,
+  "user_inputs": {
+    "acg": {
+      "enabled": true,
+      "value": {
+        "clock_mode": {
+          "parsed": 0,
+          "valid": true,
+          "value": "00"
+        }
+      }
+    },
+    "comms": {
+      "i2c": {
+        "address": {
+          "parsed": 91,
+          "valid": true,
+          "value": "0x5B"
+        }
+      },
+      "spi": {
+        "wires": 4
+      },
+      "type": "i2c"
+    },
+    "crystal": {
+      "doubler": true,
+      "freq": "54 MHz",
+      "mode": "LFF CL=12pF"
+    },
+    "eeprom": {
+      "addr": {
+        "parsed": 0,
+        "valid": true,
+        "value": "0"
+      },
+      "ibus": "i2c",
+      "type": 1024,
+      "verify": {
+        "block": {
+          "parsed": 15,
+          "valid": true,
+          "value": "15"
+        }
+      }
+    },
+    "golden_clock": "xtal",
+    "gpio": {
+      "gpio": {
+        "valid": true,
+        "value": {
+          "0": {
+            "configuration": {
+              "clock_disqualification": {
+                "0N": false,
+                "0P": false,
+                "1N": false,
+                "1P": false,
+                "2N": false,
+                "2P": false,
+                "3N": false,
+                "3P": false,
+                "4N": false,
+                "4P": false,
+                "OCXO": false
+              },
+              "value": {
+                "parsed": "general_purpose_inp",
+                "valid": true,
+                "value": "General Purpose Input"
+              }
+            },
+            "input": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "features": true
+                },
+                "pll": {
+                  "enabled": false,
+                  "value": {
+                    "A": false,
+                    "B": false,
+                    "C": false,
+                    "D": false
+                  }
+                }
+              }
+            },
+            "inversion": false,
+            "output": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "clkmon": false,
+                  "eeprom": false,
+                  "general": false,
+                  "pll:A": false,
+                  "pll:B": false,
+                  "pll:C": false,
+                  "pll:D": false
+                },
+                "open_drain": false
+              }
+            }
+          },
+          "1": {
+            "configuration": {
+              "clock_disqualification": {
+                "0N": false,
+                "0P": false,
+                "1N": false,
+                "1P": false,
+                "2N": false,
+                "2P": false,
+                "3N": false,
+                "3P": false,
+                "4N": false,
+                "4P": false,
+                "OCXO": false
+              },
+              "value": {
+                "parsed": "general_purpose_inp",
+                "valid": true,
+                "value": "General Purpose Input"
+              }
+            },
+            "input": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "features": true
+                },
+                "pll": {
+                  "enabled": false,
+                  "value": {
+                    "A": false,
+                    "B": false,
+                    "C": false,
+                    "D": false
+                  }
+                }
+              }
+            },
+            "inversion": false,
+            "output": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "clkmon": false,
+                  "eeprom": false,
+                  "general": false,
+                  "pll:A": false,
+                  "pll:B": false,
+                  "pll:C": false,
+                  "pll:D": false
+                },
+                "open_drain": false
+              }
+            }
+          },
+          "2": {
+            "configuration": {
+              "clock_disqualification": {
+                "0N": false,
+                "0P": false,
+                "1N": false,
+                "1P": false,
+                "2N": false,
+                "2P": false,
+                "3N": false,
+                "3P": false,
+                "4N": false,
+                "4P": false,
+                "OCXO": false
+              },
+              "value": {
+                "parsed": "general_purpose_inp",
+                "valid": true,
+                "value": "General Purpose Input"
+              }
+            },
+            "input": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "features": true
+                },
+                "pll": {
+                  "enabled": false,
+                  "value": {
+                    "A": false,
+                    "B": false,
+                    "C": false,
+                    "D": false
+                  }
+                }
+              }
+            },
+            "inversion": false,
+            "output": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "clkmon": false,
+                  "eeprom": false,
+                  "general": false,
+                  "pll:A": false,
+                  "pll:B": false,
+                  "pll:C": false,
+                  "pll:D": false
+                },
+                "open_drain": false
+              }
+            }
+          },
+          "3": {
+            "configuration": {
+              "clock_disqualification": {
+                "0N": false,
+                "0P": false,
+                "1N": false,
+                "1P": false,
+                "2N": false,
+                "2P": false,
+                "3N": false,
+                "3P": false,
+                "4N": false,
+                "4P": false,
+                "OCXO": false
+              },
+              "value": {
+                "parsed": "general_purpose_inp",
+                "valid": true,
+                "value": "General Purpose Input"
+              }
+            },
+            "input": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "features": true
+                },
+                "pll": {
+                  "enabled": false,
+                  "value": {
+                    "A": false,
+                    "B": false,
+                    "C": false,
+                    "D": false
+                  }
+                }
+              }
+            },
+            "inversion": false,
+            "output": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "clkmon": false,
+                  "eeprom": false,
+                  "general": false,
+                  "pll:A": false,
+                  "pll:B": false,
+                  "pll:C": false,
+                  "pll:D": false
+                },
+                "open_drain": false
+              }
+            }
+          },
+          "4": {
+            "configuration": {
+              "clock_disqualification": {
+                "0N": false,
+                "0P": false,
+                "1N": false,
+                "1P": false,
+                "2N": false,
+                "2P": false,
+                "3N": false,
+                "3P": false,
+                "4N": false,
+                "4P": false,
+                "OCXO": false
+              },
+              "value": {
+                "parsed": "general_purpose_inp",
+                "valid": true,
+                "value": "General Purpose Input"
+              }
+            },
+            "input": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "features": true
+                },
+                "pll": {
+                  "enabled": false,
+                  "value": {
+                    "A": false,
+                    "B": false,
+                    "C": false,
+                    "D": false
+                  }
+                }
+              }
+            },
+            "inversion": false,
+            "output": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "clkmon": false,
+                  "eeprom": false,
+                  "general": false,
+                  "pll:A": false,
+                  "pll:B": false,
+                  "pll:C": false,
+                  "pll:D": false
+                },
+                "open_drain": false
+              }
+            }
+          },
+          "5": {
+            "configuration": {
+              "clock_disqualification": {
+                "0N": false,
+                "0P": false,
+                "1N": false,
+                "1P": false,
+                "2N": false,
+                "2P": false,
+                "3N": false,
+                "3P": false,
+                "4N": false,
+                "4P": false,
+                "OCXO": false
+              },
+              "value": {
+                "parsed": "general_purpose_inp",
+                "valid": true,
+                "value": "General Purpose Input"
+              }
+            },
+            "input": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "features": true
+                },
+                "pll": {
+                  "enabled": false,
+                  "value": {
+                    "A": false,
+                    "B": false,
+                    "C": false,
+                    "D": false
+                  }
+                }
+              }
+            },
+            "inversion": false,
+            "output": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "clkmon": false,
+                  "eeprom": false,
+                  "general": false,
+                  "pll:A": false,
+                  "pll:B": false,
+                  "pll:C": false,
+                  "pll:D": false
+                },
+                "open_drain": false
+              }
+            }
+          },
+          "9": {
+            "configuration": {
+              "clock_disqualification": {
+                "0N": false,
+                "0P": false,
+                "1N": false,
+                "1P": false,
+                "2N": false,
+                "2P": false,
+                "3N": false,
+                "3P": false,
+                "4N": false,
+                "4P": false,
+                "OCXO": false
+              },
+              "value": {
+                "parsed": "general_purpose_inp",
+                "valid": true,
+                "value": "General Purpose Input"
+              }
+            },
+            "input": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "features": true
+                },
+                "pll": {
+                  "enabled": false,
+                  "value": {
+                    "A": false,
+                    "B": false,
+                    "C": false,
+                    "D": false
+                  }
+                }
+              }
+            },
+            "inversion": false,
+            "output": {
+              "state": "input",
+              "value": {
+                "configuration": {
+                  "clkmon": false,
+                  "eeprom": false,
+                  "general": false,
+                  "pll:A": false,
+                  "pll:B": false,
+                  "pll:C": false,
+                  "pll:D": false
+                },
+                "open_drain": false
+              }
+            }
+          }
+        }
+      },
+      "vdd": "1.8V"
+    },
+    "inputs": {
+      "0N": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "dc",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 8,
+                "valid": true,
+                "value": "8"
+              },
+              "edge_trigger": {
+                "parsed": 13,
+                "valid": true,
+                "value": "13"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "300",
+              "set": "1000"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "68",
+              "set": "142"
+            },
+            "warn": true
+          },
+          "freq": "100MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "32 s"
+        }
+      },
+      "0P": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "ac",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 15,
+                "valid": true,
+                "value": "15"
+              },
+              "edge_trigger": {
+                "parsed": 16,
+                "valid": true,
+                "value": "16"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": false,
+            "value": {
+              "clr": "400",
+              "set": "500"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": false,
+            "value": {
+              "clr": "8",
+              "set": "10"
+            },
+            "warn": true
+          },
+          "freq": "50 MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": true
+          },
+          "valid_timer": "1 s"
+        }
+      },
+      "1N": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "dc",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 6,
+                "valid": true,
+                "value": "6"
+              },
+              "edge_trigger": {
+                "parsed": 15,
+                "valid": true,
+                "value": "15"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "300",
+              "set": "1500"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "128",
+              "set": "130"
+            },
+            "warn": true
+          },
+          "freq": "50 MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "4 s"
+        }
+      },
+      "1P": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "dc",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 8,
+                "valid": true,
+                "value": "8"
+              },
+              "edge_trigger": {
+                "parsed": 14,
+                "valid": true,
+                "value": "14"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "200",
+              "set": "1200"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "4",
+              "set": "60"
+            },
+            "warn": true
+          },
+          "freq": "150MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "2 ms"
+        }
+      },
+      "2N": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "dc",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 8,
+                "valid": true,
+                "value": "8"
+              },
+              "edge_trigger": {
+                "parsed": 14,
+                "valid": true,
+                "value": "14"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "400",
+              "set": "1200"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "12",
+              "set": "60"
+            },
+            "warn": true
+          },
+          "freq": "100 MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "64 s"
+        }
+      },
+      "2P": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "ac",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 4,
+                "valid": true,
+                "value": "4"
+              },
+              "edge_trigger": {
+                "parsed": 9,
+                "valid": true,
+                "value": "9"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "800",
+              "set": "1400"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "4",
+              "set": "80"
+            },
+            "warn": true
+          },
+          "freq": "50 MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "2 ms"
+        }
+      },
+      "3N": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "dc",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 7,
+                "valid": true,
+                "value": "7"
+              },
+              "edge_trigger": {
+                "parsed": 15,
+                "valid": true,
+                "value": "15"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "300",
+              "set": "900"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "8",
+              "set": "70"
+            },
+            "warn": true
+          },
+          "freq": "50MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "64 s"
+        }
+      },
+      "3P": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "ac",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 4,
+                "valid": true,
+                "value": "4"
+              },
+              "edge_trigger": {
+                "parsed": 9,
+                "valid": true,
+                "value": "9"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "300",
+              "set": "1200"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "6",
+              "set": "70"
+            },
+            "warn": true
+          },
+          "freq": "150 MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "32 s"
+        }
+      },
+      "4N": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "dc",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 3,
+                "valid": true,
+                "value": "3"
+              },
+              "edge_trigger": {
+                "parsed": 8,
+                "valid": true,
+                "value": "8"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "400",
+              "set": "1300"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "12",
+              "set": "38"
+            },
+            "warn": true
+          },
+          "freq": "100MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "256 ms"
+        }
+      },
+      "4P": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "ac",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 11,
+                "valid": true,
+                "value": "11"
+              },
+              "edge_trigger": {
+                "parsed": 12,
+                "valid": true,
+                "value": "12"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "600",
+              "set": "1300"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "12",
+              "set": "26"
+            },
+            "warn": true
+          },
+          "freq": "200 MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "1 s"
+        }
+      },
+      "INTSYNC": {
+        "enabled": false,
+        "value": {
+          "clock_couple": "dc",
+          "clock_gap": false,
+          "clock_inversion": false,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 12,
+                "valid": true,
+                "value": "12"
+              },
+              "edge_trigger": {
+                "parsed": 13,
+                "valid": true,
+                "value": "13"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "1200",
+              "set": "1600"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "8",
+              "set": "190"
+            },
+            "warn": true
+          },
+          "freq": {
+            "parsed": null,
+            "valid": true,
+            "value": ""
+          },
+          "plls": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": false,
+            "FT": false
+          },
+          "valid_timer": "1 s"
+        }
+      },
+      "OCXO": {
+        "enabled": true,
+        "value": {
+          "clock_couple": "ac",
+          "clock_gap": true,
+          "clock_inversion": true,
+          "clock_loss": {
+            "enabled": true,
+            "valid": true,
+            "value": {
+              "edge_clear": {
+                "parsed": 8,
+                "valid": true,
+                "value": "8"
+              },
+              "edge_trigger": {
+                "parsed": 13,
+                "valid": true,
+                "value": "13"
+              }
+            }
+          },
+          "clock_switch": {
+            "clock_loss": true,
+            "fd_coarse": true,
+            "fd_fine": true
+          },
+          "drift_coarse": {
+            "enabled": true,
+            "value": {
+              "clr": "100",
+              "set": "200"
+            },
+            "warn": true
+          },
+          "drift_fine": {
+            "enabled": true,
+            "value": {
+              "clr": "10",
+              "set": "56"
+            },
+            "warn": true
+          },
+          "freq": "50MHz",
+          "plls": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "FT": false
+          },
+          "valid_timer": "64 s"
+        }
+      }
+    },
+    "inputs_diff": {
+      "0P": false,
+      "1P": false,
+      "2P": false,
+      "3P": false,
+      "4P": false
+    },
+    "inputtdc": {
+      "edge": {
+        "0N": "Falling",
+        "0P": "Falling",
+        "1N": "Falling",
+        "1P": "Falling",
+        "2N": "Falling",
+        "2P": "Falling",
+        "3N": "Falling",
+        "3P": "Falling",
+        "4N": "Falling",
+        "4P": "Falling"
+      },
+      "tdcs": {
+        "0": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "3P",
+              "valid": true,
+              "value": "3P"
+            },
+            "clk2": {
+              "parsed": "1P",
+              "valid": true,
+              "value": "1P"
+            },
+            "nsamples": {
+              "parsed": 2,
+              "valid": true,
+              "value": "2"
+            }
+          }
+        },
+        "1": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "1P",
+              "valid": true,
+              "value": "1P"
+            },
+            "clk2": {
+              "parsed": "1N",
+              "valid": true,
+              "value": "1N"
+            },
+            "nsamples": {
+              "parsed": 0,
+              "valid": true,
+              "value": "0"
+            }
+          }
+        },
+        "2": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "2P",
+              "valid": true,
+              "value": "2P"
+            },
+            "clk2": {
+              "parsed": "0N",
+              "valid": true,
+              "value": "0N"
+            },
+            "nsamples": {
+              "parsed": 8,
+              "valid": true,
+              "value": "8"
+            }
+          }
+        },
+        "3": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "4P",
+              "valid": true,
+              "value": "4P"
+            },
+            "clk2": {
+              "parsed": "1N",
+              "valid": true,
+              "value": "1N"
+            },
+            "nsamples": {
+              "parsed": 9,
+              "valid": true,
+              "value": "9"
+            }
+          }
+        },
+        "4": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "3N",
+              "valid": true,
+              "value": "3N"
+            },
+            "clk2": {
+              "parsed": "1P",
+              "valid": true,
+              "value": "1P"
+            },
+            "nsamples": {
+              "parsed": 5,
+              "valid": true,
+              "value": "5"
+            }
+          }
+        },
+        "5": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "2N",
+              "valid": true,
+              "value": "2N"
+            },
+            "clk2": {
+              "parsed": "4N",
+              "valid": true,
+              "value": "4N"
+            },
+            "nsamples": {
+              "parsed": 3,
+              "valid": true,
+              "value": "3"
+            }
+          }
+        },
+        "6": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "1N",
+              "valid": true,
+              "value": "1N"
+            },
+            "clk2": {
+              "parsed": "2N",
+              "valid": true,
+              "value": "2N"
+            },
+            "nsamples": {
+              "parsed": 7,
+              "valid": true,
+              "value": "7"
+            }
+          }
+        },
+        "7": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "2P",
+              "valid": true,
+              "value": "2P"
+            },
+            "clk2": {
+              "parsed": "3N",
+              "valid": true,
+              "value": "3N"
+            },
+            "nsamples": {
+              "parsed": 7,
+              "valid": true,
+              "value": "7"
+            }
+          }
+        },
+        "8": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "3N",
+              "valid": true,
+              "value": "3N"
+            },
+            "clk2": {
+              "parsed": "1N",
+              "valid": true,
+              "value": "1N"
+            },
+            "nsamples": {
+              "parsed": 10,
+              "valid": true,
+              "value": "10"
+            }
+          }
+        },
+        "9": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "clk1": {
+              "parsed": "2N",
+              "valid": true,
+              "value": "2N"
+            },
+            "clk2": {
+              "parsed": "3N",
+              "valid": true,
+              "value": "3N"
+            },
+            "nsamples": {
+              "parsed": 11,
+              "valid": true,
+              "value": "11"
+            }
+          }
+        }
+      }
+    },
+    "interrupt": {
+      "eeprom": {
+        "defect_interrupt": false
+      },
+      "input_closs": {
+        "0N": true,
+        "0P": true,
+        "1N": true,
+        "1P": true,
+        "2N": true,
+        "2P": true,
+        "3N": true,
+        "3P": true,
+        "4N": true,
+        "4P": true,
+        "INTSYNC": true,
+        "OCXO": true
+      },
+      "input_coarse_drift": {
+        "0N": true,
+        "0P": true,
+        "1N": true,
+        "1P": true,
+        "2N": true,
+        "2P": true,
+        "3N": true,
+        "3P": true,
+        "4N": true,
+        "4P": true,
+        "INTSYNC": true,
+        "OCXO": true
+      },
+      "input_fine_drift": {
+        "0N": true,
+        "0P": true,
+        "1N": true,
+        "1P": true,
+        "2N": true,
+        "2P": true,
+        "3N": true,
+        "3P": true,
+        "4N": true,
+        "4P": true,
+        "INTSYNC": true,
+        "OCXO": true
+      },
+      "pll_ho_freeze": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "FT": true
+      },
+      "pll_inner_lol": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "FT": true,
+        "common": true
+      },
+      "pll_outer_lol": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "FT": true
+      },
+      "pll_phase_lol": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "FT": true
+      },
+      "tdc": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false
+      }
+    },
+    "on_the_fly": {
+      "enabled": false,
+      "value": {
+        "multi": [],
+        "single": []
+      }
+    },
+    "outputs": {
+      "valid": true,
+      "value": {
+        "0": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "delay": "0 s",
+            "freq": "240MHz",
+            "m_de": {
+              "state": "",
+              "value": {
+                "it": false,
+                "submode": "",
+                "swing": {
+                  "parsed": null,
+                  "valid": true,
+                  "value": ""
+                }
+              }
+            },
+            "m_se": {
+              "state": "",
+              "value": {
+                "on": {
+                  "enabled": true,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": true,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": false,
+            "pll": {
+              "enabled": false,
+              "value": ""
+            },
+            "syncb": false,
+            "sys_ref": {
+              "enabled": true,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "2.5V"
+          }
+        },
+        "1": {
+          "enabled": true,
+          "valid": true,
+          "value": {
+            "delay": "0 s",
+            "freq": "0.1GHz",
+            "m_de": {
+              "state": "de",
+              "value": {
+                "it": false,
+                "submode": "HCSL",
+                "swing": "0.6 V"
+              }
+            },
+            "m_se": {
+              "state": "de",
+              "value": {
+                "on": {
+                  "enabled": false,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": false,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": false,
+            "pll": {
+              "enabled": true,
+              "value": "C"
+            },
+            "syncb": true,
+            "sys_ref": {
+              "enabled": false,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "3.3V"
+          }
+        },
+        "10": {
+          "enabled": true,
+          "valid": true,
+          "value": {
+            "delay": "1 s",
+            "freq": "150MHz",
+            "m_de": {
+              "state": "se",
+              "value": {
+                "it": false,
+                "submode": "",
+                "swing": {
+                  "parsed": null,
+                  "valid": true,
+                  "value": ""
+                }
+              }
+            },
+            "m_se": {
+              "state": "se",
+              "value": {
+                "on": {
+                  "enabled": true,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": true,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": false,
+            "pll": {
+              "enabled": true,
+              "value": "B"
+            },
+            "syncb": false,
+            "sys_ref": {
+              "enabled": true,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "3.3V"
+          }
+        },
+        "11": {
+          "enabled": true,
+          "valid": true,
+          "value": {
+            "delay": "0.5 s",
+            "freq": "500MHz",
+            "m_de": {
+              "state": "de",
+              "value": {
+                "it": false,
+                "submode": "LVDS",
+                "swing": "0.5 V"
+              }
+            },
+            "m_se": {
+              "state": "de",
+              "value": {
+                "on": {
+                  "enabled": false,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": false,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": true,
+            "pll": {
+              "enabled": true,
+              "value": "A"
+            },
+            "syncb": false,
+            "sys_ref": {
+              "enabled": false,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "3.3V"
+          }
+        },
+        "2": {
+          "enabled": true,
+          "valid": true,
+          "value": {
+            "delay": "0.9 s",
+            "freq": "100MHz",
+            "m_de": {
+              "state": "se",
+              "value": {
+                "it": false,
+                "submode": "",
+                "swing": {
+                  "parsed": null,
+                  "valid": true,
+                  "value": ""
+                }
+              }
+            },
+            "m_se": {
+              "state": "se",
+              "value": {
+                "on": {
+                  "enabled": true,
+                  "value": "clkp"
+                },
+                "op": {
+                  "enabled": true,
+                  "value": "clkn"
+                }
+              }
+            },
+            "phfl": false,
+            "pll": {
+              "enabled": true,
+              "value": "B"
+            },
+            "syncb": false,
+            "sys_ref": {
+              "enabled": true,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "2.5V"
+          }
+        },
+        "3": {
+          "enabled": true,
+          "valid": true,
+          "value": {
+            "delay": "0.2 s",
+            "freq": "500MHz",
+            "m_de": {
+              "state": "de",
+              "value": {
+                "it": false,
+                "submode": "CML",
+                "swing": "0.2 V"
+              }
+            },
+            "m_se": {
+              "state": "de",
+              "value": {
+                "on": {
+                  "enabled": false,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": false,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": true,
+            "pll": {
+              "enabled": true,
+              "value": "A"
+            },
+            "syncb": false,
+            "sys_ref": {
+              "enabled": false,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "2.5V"
+          }
+        },
+        "4": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "delay": "0 s",
+            "freq": "120MHz",
+            "m_de": {
+              "state": "",
+              "value": {
+                "it": false,
+                "submode": "",
+                "swing": {
+                  "parsed": null,
+                  "valid": true,
+                  "value": ""
+                }
+              }
+            },
+            "m_se": {
+              "state": "",
+              "value": {
+                "on": {
+                  "enabled": true,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": true,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": false,
+            "pll": {
+              "enabled": false,
+              "value": ""
+            },
+            "syncb": false,
+            "sys_ref": {
+              "enabled": true,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "1.8V"
+          }
+        },
+        "5": {
+          "enabled": true,
+          "valid": true,
+          "value": {
+            "delay": "0 s",
+            "freq": "0.5 GHz",
+            "m_de": {
+              "state": "de",
+              "value": {
+                "it": false,
+                "submode": "HCSL",
+                "swing": "0.68 V"
+              }
+            },
+            "m_se": {
+              "state": "de",
+              "value": {
+                "on": {
+                  "enabled": false,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": false,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": false,
+            "pll": {
+              "enabled": true,
+              "value": "C"
+            },
+            "syncb": true,
+            "sys_ref": {
+              "enabled": false,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "3.3V"
+          }
+        },
+        "6": {
+          "enabled": true,
+          "valid": true,
+          "value": {
+            "delay": "0.6 s",
+            "freq": "250MHz",
+            "m_de": {
+              "state": "se",
+              "value": {
+                "it": false,
+                "submode": "",
+                "swing": {
+                  "parsed": null,
+                  "valid": true,
+                  "value": ""
+                }
+              }
+            },
+            "m_se": {
+              "state": "se",
+              "value": {
+                "on": {
+                  "enabled": true,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": true,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": false,
+            "pll": {
+              "enabled": true,
+              "value": "B"
+            },
+            "syncb": false,
+            "sys_ref": {
+              "enabled": true,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "2.5V"
+          }
+        },
+        "7": {
+          "enabled": true,
+          "valid": true,
+          "value": {
+            "delay": "0 s",
+            "freq": "500MHz",
+            "m_de": {
+              "state": "de",
+              "value": {
+                "it": false,
+                "submode": "LVPECL",
+                "swing": "0.68 V"
+              }
+            },
+            "m_se": {
+              "state": "de",
+              "value": {
+                "on": {
+                  "enabled": false,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": false,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": true,
+            "pll": {
+              "enabled": true,
+              "value": "A"
+            },
+            "syncb": false,
+            "sys_ref": {
+              "enabled": false,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "3.3V"
+          }
+        },
+        "8": {
+          "enabled": false,
+          "valid": true,
+          "value": {
+            "delay": "0 s",
+            "freq": "240MHz",
+            "m_de": {
+              "state": "",
+              "value": {
+                "it": false,
+                "submode": "",
+                "swing": {
+                  "parsed": null,
+                  "valid": true,
+                  "value": ""
+                }
+              }
+            },
+            "m_se": {
+              "state": "",
+              "value": {
+                "on": {
+                  "enabled": true,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": true,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": false,
+            "pll": {
+              "enabled": false,
+              "value": ""
+            },
+            "syncb": false,
+            "sys_ref": {
+              "enabled": true,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "3.3V"
+          }
+        },
+        "9": {
+          "enabled": true,
+          "valid": true,
+          "value": {
+            "delay": "0.1 s",
+            "freq": "0.5GHz",
+            "m_de": {
+              "state": "de",
+              "value": {
+                "it": false,
+                "submode": "LVPECL",
+                "swing": "0.62 V"
+              }
+            },
+            "m_se": {
+              "state": "de",
+              "value": {
+                "on": {
+                  "enabled": false,
+                  "value": "clkn"
+                },
+                "op": {
+                  "enabled": false,
+                  "value": "clkp"
+                }
+              }
+            },
+            "phfl": false,
+            "pll": {
+              "enabled": true,
+              "value": "C"
+            },
+            "syncb": true,
+            "sys_ref": {
+              "enabled": false,
+              "value": {
+                "continuous": "continuous",
+                "pulser": {
+                  "state": "continuous",
+                  "value": {
+                    "count": {
+                      "parsed": null,
+                      "valid": true,
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "vddo": "3.3V"
+          }
+        }
+      }
+    },
+    "phase_sync": {
+      "enabled": false,
+      "value": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false
+      }
+    },
+    "plls": {
+      "A": {
+        "enabled": true,
+        "value": {
+          "free_running": {
+            "enabled": true,
+            "value": {
+              "clock_switch": {
+                "frequency_ramp": {
+                  "enabled": true,
+                  "value": {
+                    "slope": "200 ppm/s"
+                  }
+                },
+                "hitless": {
+                  "ph_bout": "propagation",
+                  "ph_prop": {
+                    "state": "propagation",
+                    "value": {
+                      "slope": {
+                        "parsed": null,
+                        "valid": true,
+                        "value": "Bandwidth"
+                      }
+                    }
+                  }
+                }
+              },
+              "dco": true,
+              "fast_lock_ho": true,
+              "freq_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "1 ms",
+                  "ppm": {
+                    "valid": true,
+                    "value": {
+                      "clr": "2000 ppm",
+                      "set": "4000 ppm"
+                    }
+                  },
+                  "timer": false
+                }
+              },
+              "holdover": {
+                "average": "4 ms",
+                "delay": "9 ms"
+              },
+              "ip_clock": {
+                "revertive": true,
+                "select": "Auto"
+              },
+              "mode": {
+                "o:phfl": {
+                  "state": "phfl",
+                  "value": {
+                    "delta": "100 ns"
+                  }
+                },
+                "value": "phfl"
+              },
+              "phase_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "2 s",
+                  "phase_delta": "9 ns",
+                  "timer": false
+                }
+              },
+              "sw_ext": {
+                "state": "oc",
+                "value": {
+                  "decimation": {
+                    "parsed": 7,
+                    "valid": true,
+                    "value": "7"
+                  }
+                }
+              },
+              "sw_oc": {
+                "state": "oc",
+                "value": {
+                  "fast": "100",
+                  "normal": "100"
+                }
+              },
+              "zdm": {
+                "external": {
+                  "feedback": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  },
+                  "output": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  }
+                },
+                "state": "internal"
+              }
+            }
+          },
+          "fuse_lock": {
+            "enabled": false,
+            "value": {
+              "fvco": {
+                "parsed": null,
+                "valid": true,
+                "value": ""
+              }
+            }
+          },
+          "in3_sync": false,
+          "lwm": false,
+          "order_in": [
+            "0P",
+            "0N",
+            "1P",
+            "1N",
+            "2P",
+            "2N",
+            "3P",
+            "3N",
+            "4P",
+            "4N",
+            "OCXO"
+          ],
+          "ptp": {
+            "enabled": true,
+            "value": {
+              "bw": "0.09mHz",
+              "ipath": true,
+              "phase_sl": "7.8 ns/s",
+              "phase_ur": "100kHz",
+              "ppath": true
+            }
+          },
+          "smartdco": {
+            "receiver": {
+              "valid": true,
+              "value": {
+                "rx1": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "rx2": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "sl": "1024 ppm/s"
+              }
+            },
+            "transmitter": {
+              "tx1": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              },
+              "tx2": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "B": {
+        "enabled": true,
+        "value": {
+          "free_running": {
+            "enabled": true,
+            "value": {
+              "clock_switch": {
+                "frequency_ramp": {
+                  "enabled": true,
+                  "value": {
+                    "slope": "200 ppm/s"
+                  }
+                },
+                "hitless": {
+                  "ph_bout": "buildout",
+                  "ph_prop": {
+                    "state": "buildout",
+                    "value": {
+                      "slope": {
+                        "parsed": null,
+                        "valid": true,
+                        "value": "Bandwidth"
+                      }
+                    }
+                  }
+                }
+              },
+              "dco": true,
+              "fast_lock_ho": true,
+              "freq_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "1 s",
+                  "ppm": {
+                    "valid": true,
+                    "value": {
+                      "clr": "2 ppm",
+                      "set": "2000 ppm"
+                    }
+                  },
+                  "timer": true
+                }
+              },
+              "holdover": {
+                "average": "17.5 s",
+                "delay": "9 ms"
+              },
+              "ip_clock": {
+                "revertive": false,
+                "select": "Auto"
+              },
+              "mode": {
+                "o:phfl": {
+                  "state": "sys_ref",
+                  "value": {
+                    "delta": "100 ns"
+                  }
+                },
+                "value": "sys_ref"
+              },
+              "phase_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "7 s",
+                  "phase_delta": "8 ns",
+                  "timer": false
+                }
+              },
+              "sw_ext": {
+                "state": "oc",
+                "value": {
+                  "decimation": {
+                    "parsed": 1,
+                    "valid": true,
+                    "value": "1"
+                  }
+                }
+              },
+              "sw_oc": {
+                "state": "oc",
+                "value": {
+                  "fast": "4k",
+                  "normal": "100"
+                }
+              },
+              "zdm": {
+                "external": {
+                  "feedback": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  },
+                  "output": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  }
+                },
+                "state": ""
+              }
+            }
+          },
+          "fuse_lock": {
+            "enabled": false,
+            "value": {
+              "fvco": {
+                "parsed": null,
+                "valid": true,
+                "value": ""
+              }
+            }
+          },
+          "in3_sync": false,
+          "lwm": false,
+          "order_in": [
+            "0P",
+            "0N",
+            "1P",
+            "1N",
+            "2P",
+            "2N",
+            "3P",
+            "3N",
+            "4P",
+            "4N",
+            "OCXO"
+          ],
+          "ptp": {
+            "enabled": false,
+            "value": {
+              "bw": {
+                "parsed": null,
+                "valid": false,
+                "value": ""
+              },
+              "ipath": true,
+              "phase_sl": {
+                "parsed": null,
+                "valid": true,
+                "value": "Bandwidth"
+              },
+              "phase_ur": {
+                "parsed": null,
+                "valid": false,
+                "value": ""
+              },
+              "ppath": true
+            }
+          },
+          "smartdco": {
+            "receiver": {
+              "valid": true,
+              "value": {
+                "rx1": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "rx2": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "sl": "1024 ppm/s"
+              }
+            },
+            "transmitter": {
+              "tx1": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              },
+              "tx2": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "C": {
+        "enabled": true,
+        "value": {
+          "free_running": {
+            "enabled": true,
+            "value": {
+              "clock_switch": {
+                "frequency_ramp": {
+                  "enabled": true,
+                  "value": {
+                    "slope": "20 ppm/s"
+                  }
+                },
+                "hitless": {
+                  "ph_bout": "propagation",
+                  "ph_prop": {
+                    "state": "propagation",
+                    "value": {
+                      "slope": "2 ns/s"
+                    }
+                  }
+                }
+              },
+              "dco": true,
+              "fast_lock_ho": true,
+              "freq_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "4 s",
+                  "ppm": {
+                    "valid": true,
+                    "value": {
+                      "clr": "0.2 ppm",
+                      "set": "2000 ppm"
+                    }
+                  },
+                  "timer": true
+                }
+              },
+              "holdover": {
+                "average": "4.375 s",
+                "delay": "35 s"
+              },
+              "ip_clock": {
+                "revertive": true,
+                "select": "Manual"
+              },
+              "mode": {
+                "o:phfl": {
+                  "state": "syncb",
+                  "value": {
+                    "delta": "100 ns"
+                  }
+                },
+                "value": "syncb"
+              },
+              "phase_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "7 s",
+                  "phase_delta": "95 ns",
+                  "timer": true
+                }
+              },
+              "sw_ext": {
+                "state": "oc",
+                "value": {
+                  "decimation": {
+                    "parsed": 1,
+                    "valid": true,
+                    "value": "1"
+                  }
+                }
+              },
+              "sw_oc": {
+                "state": "oc",
+                "value": {
+                  "fast": "4k",
+                  "normal": "4k"
+                }
+              },
+              "zdm": {
+                "external": {
+                  "feedback": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  },
+                  "output": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  }
+                },
+                "state": ""
+              }
+            }
+          },
+          "fuse_lock": {
+            "enabled": false,
+            "value": {
+              "fvco": {
+                "parsed": null,
+                "valid": true,
+                "value": ""
+              }
+            }
+          },
+          "in3_sync": false,
+          "lwm": false,
+          "order_in": [
+            "0P",
+            "0N",
+            "1P",
+            "1N",
+            "2P",
+            "2N",
+            "3P",
+            "3N",
+            "4P",
+            "4N",
+            "OCXO"
+          ],
+          "ptp": {
+            "enabled": true,
+            "value": {
+              "bw": "1kHz",
+              "ipath": true,
+              "phase_sl": "15.62 ns/s",
+              "phase_ur": "99kHz",
+              "ppath": true
+            }
+          },
+          "smartdco": {
+            "receiver": {
+              "valid": true,
+              "value": {
+                "rx1": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "rx2": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "sl": "1024 ppm/s"
+              }
+            },
+            "transmitter": {
+              "tx1": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              },
+              "tx2": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "D": {
+        "enabled": true,
+        "value": {
+          "free_running": {
+            "enabled": true,
+            "value": {
+              "clock_switch": {
+                "frequency_ramp": {
+                  "enabled": true,
+                  "value": {
+                    "slope": "20 ppm/s"
+                  }
+                },
+                "hitless": {
+                  "ph_bout": "propagation",
+                  "ph_prop": {
+                    "state": "propagation",
+                    "value": {
+                      "slope": "62.5 ns/s"
+                    }
+                  }
+                }
+              },
+              "dco": true,
+              "fast_lock_ho": true,
+              "freq_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "1 s",
+                  "ppm": {
+                    "valid": true,
+                    "value": {
+                      "clr": "0.4 ppm",
+                      "set": "400 ppm"
+                    }
+                  },
+                  "timer": true
+                }
+              },
+              "holdover": {
+                "average": "17 ms",
+                "delay": "8.75 s"
+              },
+              "ip_clock": {
+                "revertive": false,
+                "select": "Auto"
+              },
+              "mode": {
+                "o:phfl": {
+                  "state": "sys_ref",
+                  "value": {
+                    "delta": "100 ns"
+                  }
+                },
+                "value": "sys_ref"
+              },
+              "phase_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "24 s",
+                  "phase_delta": "0.2 ns",
+                  "timer": true
+                }
+              },
+              "sw_ext": {
+                "state": "oc",
+                "value": {
+                  "decimation": {
+                    "parsed": 1,
+                    "valid": true,
+                    "value": "1"
+                  }
+                }
+              },
+              "sw_oc": {
+                "state": "oc",
+                "value": {
+                  "fast": "2k",
+                  "normal": "1k"
+                }
+              },
+              "zdm": {
+                "external": {
+                  "feedback": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  },
+                  "output": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  }
+                },
+                "state": ""
+              }
+            }
+          },
+          "fuse_lock": {
+            "enabled": false,
+            "value": {
+              "fvco": {
+                "parsed": null,
+                "valid": true,
+                "value": ""
+              }
+            }
+          },
+          "in3_sync": false,
+          "lwm": false,
+          "order_in": [
+            "0P",
+            "0N",
+            "1P",
+            "1N",
+            "2P",
+            "2N",
+            "3P",
+            "3N",
+            "4P",
+            "4N",
+            "OCXO"
+          ],
+          "ptp": {
+            "enabled": true,
+            "value": {
+              "bw": "199",
+              "ipath": true,
+              "phase_sl": {
+                "parsed": null,
+                "valid": true,
+                "value": "Bandwidth"
+              },
+              "phase_ur": "10kHz",
+              "ppath": true
+            }
+          },
+          "smartdco": {
+            "receiver": {
+              "valid": true,
+              "value": {
+                "rx1": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "rx2": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "sl": "1024 ppm/s"
+              }
+            },
+            "transmitter": {
+              "tx1": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              },
+              "tx2": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "FT": {
+        "enabled": true,
+        "value": {
+          "free_running": {
+            "enabled": true,
+            "value": {
+              "clock_switch": {
+                "frequency_ramp": {
+                  "enabled": false,
+                  "value": {
+                    "slope": "40000 ppm/s"
+                  }
+                },
+                "hitless": {
+                  "ph_bout": "propagation",
+                  "ph_prop": {
+                    "state": "propagation",
+                    "value": {
+                      "slope": {
+                        "parsed": null,
+                        "valid": true,
+                        "value": "Bandwidth"
+                      }
+                    }
+                  }
+                }
+              },
+              "dco": false,
+              "fast_lock_ho": true,
+              "freq_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "4 ms",
+                  "ppm": {
+                    "valid": true,
+                    "value": {
+                      "clr": "2 ppm",
+                      "set": "4 ppm"
+                    }
+                  },
+                  "timer": true
+                }
+              },
+              "holdover": {
+                "average": "1.094 s",
+                "delay": "547 ms"
+              },
+              "ip_clock": {
+                "revertive": true,
+                "select": "Auto"
+              },
+              "mode": {
+                "o:phfl": {
+                  "state": "",
+                  "value": {
+                    "delta": "100 ns"
+                  }
+                },
+                "value": ""
+              },
+              "phase_lock_loss": {
+                "enabled": true,
+                "value": {
+                  "delay": "4 ms",
+                  "phase_delta": "2 ns",
+                  "timer": true
+                }
+              },
+              "sw_ext": {
+                "state": "oc",
+                "value": {
+                  "decimation": {
+                    "parsed": 1,
+                    "valid": true,
+                    "value": "1"
+                  }
+                }
+              },
+              "sw_oc": {
+                "state": "oc",
+                "value": {
+                  "fast": "100",
+                  "normal": "100"
+                }
+              },
+              "zdm": {
+                "external": {
+                  "feedback": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  },
+                  "output": {
+                    "parsed": null,
+                    "valid": true,
+                    "value": ""
+                  }
+                },
+                "state": ""
+              }
+            }
+          },
+          "fuse_lock": {
+            "enabled": false,
+            "value": {
+              "fvco": {
+                "parsed": null,
+                "valid": true,
+                "value": ""
+              }
+            }
+          },
+          "in3_sync": false,
+          "lwm": false,
+          "order_in": [
+            "0P"
+          ],
+          "ptp": {
+            "enabled": false,
+            "value": {
+              "bw": {
+                "parsed": null,
+                "valid": false,
+                "value": ""
+              },
+              "ipath": true,
+              "phase_sl": {
+                "parsed": null,
+                "valid": true,
+                "value": "Bandwidth"
+              },
+              "phase_ur": {
+                "parsed": null,
+                "valid": false,
+                "value": ""
+              },
+              "ppath": true
+            }
+          },
+          "smartdco": {
+            "receiver": {
+              "valid": true,
+              "value": {
+                "rx1": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "rx2": {
+                  "enabled": false,
+                  "value": {
+                    "pll": "",
+                    "tx": "tx1"
+                  }
+                },
+                "sl": "1024 ppm/s"
+              }
+            },
+            "transmitter": {
+              "tx1": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              },
+              "tx2": {
+                "enabled": false,
+                "value": {
+                  "ipath": true,
+                  "ppath": false,
+                  "rx1": false,
+                  "rx2": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

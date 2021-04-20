@@ -1,0 +1,3714 @@
+Test_9_Low_tdc_freq_no_fin_frac_FTPLL.json
+GUI test running for Test_9_Low_tdc_freq_no_fin_frac_FTPLL
+test_1_HasNoInputAndNoOutput_INTSYNC.json
+GUI test running for test_1_HasNoInputAndNoOutput_INTSYNC
+test_2_HasInputAndOutput_INTSYNC.json
+GUI test running for test_2_HasInputAndOutput_INTSYNC
+test_3_HasInputAndOutputNotPossible_INTSYNC.json
+GUI test running for test_3_HasInputAndOutputNotPossible_INTSYNC
+test_4_HasInputAndNoOutput_INTSYNC.json
+GUI test running for test_4_HasInputAndNoOutput_INTSYNC
+test_5_1pps_INTSYNC.json
+GUI test running for test_5_1pps_INTSYNC
+test_6_multiple_Nd_of_tdc_FTPLL.json
+GUI test running for test_6_multiple_Nd_of_tdc_FTPLL
+test_7_low_tdc_lcm_FTPLL.json
+GUI test running for test_7_low_tdc_lcm_FTPLL
+test_8_no_multiples_of_tdc_FTPLL.json
+GUI test running for test_8_no_multiples_of_tdc_FTPLL
+test_10_no_tdc_no_gcd_FTPLL.json
+GUI test running for test_10_no_tdc_no_gcd_FTPLL
+test_11_trig_edge_phfl_less_than_2.json
+GUI test running for test_11_trig_edge_phfl_less_than_2
+test_12_w2_div_bw_2_15.json
+GUI test running for test_12_w2_div_bw_2_15
+test_13_1_diff_1_1Pinput_1_output.json
+GUI test running for test_13_1_diff_1_1Pinput_1_output
+test_14_1_diffrential_input_one_output.json
+GUI test running for test_14_1_diffrential_input_one_output
+test_15_1_input_1_output.json
+GUI test running for test_15_1_input_1_output
+test_16_1_input_12_output.json
+GUI test running for test_16_1_input_12_output
+test_17_1_output.json
+GUI test running for test_17_1_output
+test_18_10_input_1_output.json
+GUI test running for test_18_10_input_1_output
+test_19_12_output.json
+GUI test running for test_19_12_output
+test_21_71_PLLfoutsNotSynthesisableWithinpllFVCOrangeLF_AC.json
+GUI test running for test_21_71_PLLfoutsNotSynthesisableWithinpllFVCOrangeLF_AC
+test_22_72_PLLfoutsNotSynthesisableWithinpllFVCOrangeHF_BD.json
+GUI test running for test_22_72_PLLfoutsNotSynthesisableWithinpllFVCOrangeHF_BD
+test_23_78_INTSYNCisNotPossible.json
+GUI test running for test_23_78_INTSYNCisNotPossible
+test_24_79_InternalFreqLessThanMinimumSpecification.json
+GUI test running for test_24_79_InternalFreqLessThanMinimumSpecification
+test_25_80_NoneOfThePLLsWithINTSYNCInputAndInZDMhaveAnOutputAndThisConfigurationIsNotImplementable.json
+GUI test running for test_25_80_NoneOfThePLLsWithINTSYNCInputAndInZDMhaveAnOutputAndThisConfigurationIsNotImplementable
+test_26_Adjacent_outputs_12k_20M.json
+GUI test running for test_26_Adjacent_outputs_12k_20M
+test_27_Adjacent_outputs_100k_20M_se_de.json
+GUI test running for test_27_Adjacent_outputs_100k_20M_se_de
+test_28_all_Diffrential_input_one_output.json
+GUI test running for test_28_all_Diffrential_input_one_output
+test_29_all_pll_freerun_enable.json
+GUI test running for test_29_all_pll_freerun_enable
+test_30_au5518_input_config_fe_gui_1_updated.json
+GUI test running for test_30_au5518_input_config_fe_gui_1_updated
+test_31_onchip_bw_null.json
+GUI test running for test_31_onchip_bw_null
+test_32_Clockloss_trig_clr_PHFL.json
+GUI test running for test_32_Clockloss_trig_clr_PHFL
+test_33_CL_threshold_fin_int_by_bw.json
+GUI test running for test_33_CL_threshold_fin_int_by_bw
+test_34_Clockloss_trig_lessthan_clr.json
+GUI test running for test_34_Clockloss_trig_lessthan_clr
+test_35_CLthreshold_finint_fastbw.json
+GUI test running for test_35_CLthreshold_finint_fastbw
+test_36_Doubler_recommended.json
+GUI test running for test_36_Doubler_recommended
+test_37_aau_case_1.json
+GUI test running for test_37_aau_case_1
+test_38_aau_case_2.json
+GUI test running for test_38_aau_case_2
+test_39_output_delay.json
+GUI test running for test_39_output_delay
+test_40_phase_hopping_loss_less.json
+GUI test running for test_40_phase_hopping_loss_less
+test_41_phase_lock_loss_diff_fin_int.json
+GUI test running for test_41_phase_lock_loss_diff_fin_int
+test_42_Xo_freq_24Mhz_invalid.json
+GUI test running for test_42_Xo_freq_24Mhz_invalid
+test_43_Xo_freq_126Mhz_doubler_invalid.json
+GUI test running for test_43_Xo_freq_126Mhz_doubler_invalid
+test_44_Xo_freq_161Mhz_warning.json
+GUI test running for test_44_Xo_freq_161Mhz_warning
+test_45_Xo_freq_250Mhz_warning.json
+GUI test running for test_45_Xo_freq_250Mhz_warning
+test_46_Xo_freq_251Mhz_invalid.json
+GUI test running for test_46_Xo_freq_251Mhz_invalid
+test_47_ZDM_in3sync_together_not_possible.json
+GUI test running for test_47_ZDM_in3sync_together_not_possible
+test_48_ZDM_PBO_together_not_possible.json
+GUI test running for test_48_ZDM_PBO_together_not_possible
+test_49_Acg_incompatible_with_4N.json
+GUI test running for test_49_Acg_incompatible_with_4N
+test_50_Acg_incompatible_with_4P_differntial.json
+GUI test running for test_50_Acg_incompatible_with_4P_differntial
+test_51_Acg_incompatible_with_o5_o6_o7.json
+GUI test running for test_51_Acg_incompatible_with_o5_o6_o7
+test_52_Acg_incompatible_with_pllD.json
+GUI test running for test_52_Acg_incompatible_with_pllD
+test_53_clk_3p_diabled_for_in3sync_pll.json
+GUI test running for test_53_clk_3p_diabled_for_in3sync_pll
+test_54_clk_3p_to_in3sync_pll.json
+GUI test running for test_54_clk_3p_to_in3sync_pll
+test_55_divn1error_intsync.json
+GUI test running for test_55_divn1error_intsync
+test_56_e1_intsync_enbl_noip.json
+GUI test running for test_56_e1_intsync_enbl_noip
+test_57_e3_intsync_not_possible.json
+GUI test running for test_57_e3_intsync_not_possible
+test_58_Ext_zdm_active_fdbk_clk.json
+GUI test running for test_58_Ext_zdm_active_fdbk_clk
+test_60_Ext_zdm_fdbk_clk_disabled.json
+GUI test running for test_60_Ext_zdm_fdbk_clk_disabled
+test_61_Ext_zdm_fdbk_output_frequency_same.json
+GUI test running for test_61_Ext_zdm_fdbk_output_frequency_same
+test_62_Ext_zdm_fdbk_same.json
+GUI test running for test_62_Ext_zdm_fdbk_same
+test_63_Ext_zdm_output_same.json
+GUI test running for test_63_Ext_zdm_output_same
+test_64_fp_error_at_one_clk_enable.json
+GUI test running for test_64_fp_error_at_one_clk_enable
+test_65_fresh_state_no_pll_no_op.json
+GUI test running for test_65_fresh_state_no_pll_no_op
+test_66_ftpll_divn2_issue.json
+GUI test running for test_66_ftpll_divn2_issue
+test_67_fvco_not_possible.json
+GUI test running for test_67_fvco_not_possible
+test_68_Golden_clk_require_monitors.json
+GUI test running for test_68_Golden_clk_require_monitors
+test_70_decimation_null.json
+GUI test running for test_70_decimation_null
+test_71_GPIO_selection_manual_input_clk_select_bit3.json
+GUI test running for test_71_GPIO_selection_manual_input_clk_select_bit3
+test_72_GPIO_selection_pll_dco_select_bit2.json
+GUI test running for test_72_GPIO_selection_pll_dco_select_bit2
+test_73_GPIO_selection_pllA_manual_input_spare_clk_ipclock_Auto.json
+GUI test running for test_73_GPIO_selection_pllA_manual_input_spare_clk_ipclock_Auto
+test_74_GPIO_selection_pllD_manual_input_spare_clk_inactive.json
+GUI test running for test_74_GPIO_selection_pllD_manual_input_spare_clk_inactive
+test_75_GPIO_selection_pllsyncb_select_bit2.json
+GUI test running for test_75_GPIO_selection_pllsyncb_select_bit2
+test_76_Input_clk_freq_high_invalid_de.json
+GUI test running for test_76_Input_clk_freq_high_invalid_de
+test_77_Input_clk_freq_high_invalid_se.json
+GUI test running for test_77_Input_clk_freq_high_invalid_se
+test_78_Input_clk_freq_low_invalid_se.json
+GUI test running for test_78_Input_clk_freq_low_invalid_se
+test_79_INTSYNC_input_1_output.json
+GUI test running for test_79_INTSYNC_input_1_output
+test_80_input_not_resonable.json
+GUI test running for test_80_input_not_resonable
+test_81_intsync_issue.json
+GUI test running for test_81_intsync_issue
+test_82_intsync_profile.json
+GUI test running for test_82_intsync_profile
+test_83_ITDC_clk_exceed_250Mhz.json
+GUI test running for test_83_ITDC_clk_exceed_250Mhz
+test_84_ITDC_clocks_disabled.json
+GUI test running for test_84_ITDC_clocks_disabled
+test_85_ITDC_clocks_integer_related.json
+GUI test running for test_85_ITDC_clocks_integer_related
+test_86_ITDC_clocks_same.json
+GUI test running for test_86_ITDC_clocks_same
+test_87_key_error_sdco.json
+GUI test running for test_87_key_error_sdco
+test_88_list_index_error.json
+GUI test running for test_88_list_index_error
+test_89_low_wander_a_b_c.json
+GUI test running for test_89_low_wander_a_b_c
+test_90_LWM_pllA_disabled.json
+GUI test running for test_90_LWM_pllA_disabled
+test_91_value_error_CMONPLL.json
+GUI test running for test_91_value_error_CMONPLL
+test_92_pllA_op_11_internal_termination_enabled.json
+GUI test running for test_92_pllA_op_11_internal_termination_enabled
+test_93_OCXO_input_1_output.json
+GUI test running for test_93_OCXO_input_1_output
+test_94_OPnotSynthesisable.json
+GUI test running for test_94_OPnotSynthesisable
+test_95_output_clk_freq_high_invalid_de.json
+GUI test running for test_95_output_clk_freq_high_invalid_de
+test_96_output_clk_freq_high_invalid_se.json
+GUI test running for test_96_output_clk_freq_high_invalid_se
+test_97_output_clk_freq_low_invalid_se.json
+GUI test running for test_97_output_clk_freq_low_invalid_se
+test_98_Phasesync_other_plls_disabled.json
+GUI test running for test_98_Phasesync_other_plls_disabled
+test_99_Phasesync_pllA_disabled.json
+GUI test running for test_99_Phasesync_pllA_disabled
+test_100_PHFL_int_or_ext_zdm.json
+GUI test running for test_100_PHFL_int_or_ext_zdm
+test_101_phfl_syncB_invalid.json
+GUI test running for test_101_phfl_syncB_invalid
+test_102_pll_min_spec.json
+GUI test running for test_102_pll_min_spec
+test_103_pll_not_synthesizable.json
+GUI test running for test_103_pll_not_synthesizable
+test_104_PLLA_FT_enabled.json
+GUI test running for test_104_PLLA_FT_enabled
+test_105_PLLC_lwm_failing_form_FP.json
+GUI test running for test_105_PLLC_lwm_failing_form_FP
+test_105_PLLC_lwm_failing_form_FP_updated.json
+GUI test running for test_105_PLLC_lwm_failing_form_FP_updated
+test_106_pllft_fp_error.json
+GUI test running for test_106_pllft_fp_error
+test_107_pllft_Frequency_planning_failed_on_sdco_enable.json
+GUI test running for test_107_pllft_Frequency_planning_failed_on_sdco_enable
+test_108_ptp_ext_filter_invalid.json
+GUI test running for test_108_ptp_ext_filter_invalid
+test_109_SDCO_loop_level2.json
+GUI test running for test_109_SDCO_loop_level2
+test_110_SDCO_loop_level3.json
+GUI test running for test_110_SDCO_loop_level3
+test_111_SDCO_loop_level4.json
+GUI test running for test_111_SDCO_loop_level4
+test_112_SDCO_rx_pll_selection_corresponding_tx_disabled.json
+GUI test running for test_112_SDCO_rx_pll_selection_corresponding_tx_disabled
+test_113_SDCO_rx_pll_selection_inactive.json
+GUI test running for test_113_SDCO_rx_pll_selection_inactive
+test_114_SDCO_rx_pll_selection_tx_same.json
+GUI test running for test_114_SDCO_rx_pll_selection_tx_same
+test_115_SE_complementary_op_on.json
+GUI test running for test_115_SE_complementary_op_on
+test_116_SE_OP_ON_mandatory.json
+GUI test running for test_116_SE_OP_ON_mandatory
+test_117_Sysref_mode_invalid.json
+GUI test running for test_117_Sysref_mode_invalid
+test_118_Sysref_phfl_mode_invalid.json
+GUI test running for test_118_Sysref_phfl_mode_invalid
+test_119_LWM_PLLB.json
+GUI test running for test_119_LWM_PLLB
+test_120_LWM_PllB_Co10_D_noIO.json
+GUI test running for test_120_LWM_PllB_Co10_D_noIO
+test_121_LWM_PllBCD.json
+GUI test running for test_121_LWM_PllBCD
+test_122_LWMPhaseSync_PllBCD.json
+GUI test running for test_122_LWMPhaseSync_PllBCD
+test_123_PhaseSync_PLLAhasinput_BCDfr.json
+GUI test running for test_123_PhaseSync_PLLAhasinput_BCDfr
+test_124_PhaseSync_PllBCD.json
+GUI test running for test_124_PhaseSync_PllBCD
+test_125_PhaseSync_PllBCD_withOutput.json
+GUI test running for test_125_PhaseSync_PllBCD_withOutput
+test_126_PhaseSync_PllD_noOutput.json
+GUI test running for test_126_PhaseSync_PllD_noOutput
+test_127_gui_not_responding.json
+GUI test running for test_127_gui_not_responding
+test_128_e_fvco_xo_clash.json
+GUI test running for test_128_e_fvco_xo_clash
+test_129_LWM_pllA_freerun_invalid.json
+GUI test running for test_129_LWM_pllA_freerun_invalid
+test_130_ptp_PLL_ABCD.json
+GUI test running for test_130_ptp_PLL_ABCD
+test_131_Phasesync_pllA_freerun_invalid.json
+GUI test running for test_131_Phasesync_pllA_freerun_invalid
+test_132_issue_268_phfl_extzdm_output_phfl.json
+GUI test running for test_132_issue_268_phfl_extzdm_output_phfl
+test_133_issue_213_gpio_phfl_warning.json
+GUI test running for test_133_issue_213_gpio_phfl_warning
+test_134_issue_213_gpio_syncb_warning.json
+GUI test running for test_134_issue_213_gpio_syncb_warning
+test_135_issue_213_gpio_sysref_warning.json
+GUI test running for test_135_issue_213_gpio_sysref_warning
+test_136_issue_221_acg_00_pllD_possible.json
+GUI test running for test_136_issue_221_acg_00_pllD_possible
+test_137_issue_221_acg_01_pllD_not_possible.json
+GUI test running for test_137_issue_221_acg_01_pllD_not_possible
+test_138_issue_221_acg_10_pllD_not_possible.json
+GUI test running for test_138_issue_221_acg_10_pllD_not_possible
+test_139_issue_221_acg_11_pllD_not_possible.json
+GUI test running for test_139_issue_221_acg_11_pllD_not_possible
+test_141_issue_211_external_filter_warning.json
+GUI test running for test_141_issue_211_external_filter_warning
+test_142_case1_CPU_clk_10_4_outputs.json
+GUI test running for test_142_case1_CPU_clk_10_4_outputs
+test_143_case1_CPU_clk_11_4_outputs.json
+GUI test running for test_143_case1_CPU_clk_11_4_outputs
+test_144_case1_issue_221_ACG_disable_PLLD7p4G.json
+GUI test running for test_144_case1_issue_221_ACG_disable_PLLD7p4G
+test_145_case1_issue_221_CPU_clk_01_4_outputs.json
+GUI test running for test_145_case1_issue_221_CPU_clk_01_4_outputs
+test_146_case2_CPU_clk_01_outputs_100_125_156p25.json
+GUI test running for test_146_case2_CPU_clk_01_outputs_100_125_156p25
+test_147_case2_CPU_clk_10_outputs_100_125.json
+GUI test running for test_147_case2_CPU_clk_10_outputs_100_125
+test_148_case2_CPU_clk_11_outputs_100_125_156p25SE.json
+GUI test running for test_148_case2_CPU_clk_11_outputs_100_125_156p25SE
+test_149_divn_error_profile.json
+GUI test running for test_149_divn_error_profile
+test_150_issue_231_61p44_122p88.json
+GUI test running for test_150_issue_231_61p44_122p88
+test_151_issue_192_ptp_bw_slope.json
+GUI test running for test_151_issue_192_ptp_bw_slope
+test_152_vdd_LVPECL_invalid.json
+GUI test running for test_152_vdd_LVPECL_invalid
+test_153_Xo_freq_125Mhz__doubler_warning.json
+GUI test running for test_153_Xo_freq_125Mhz__doubler_warning
+test_154_issue_226_pllA_SDCO_pllB_lwm.json
+GUI test running for test_154_issue_226_pllA_SDCO_pllB_lwm
+test_155_issue_226_pllA_SDCO_pllB_phasesync.json
+GUI test running for test_155_issue_226_pllA_SDCO_pllB_phasesync
+test_156_issue_165_intsync.json
+GUI test running for test_156_issue_165_intsync
+test_157_Backend_error_input_Hz.json
+GUI test running for test_157_Backend_error_input_Hz
+test_158_issue_80_int_zdm_out11_pllC_out0_pllA_invalid.json
+GUI test running for test_158_issue_80_int_zdm_out11_pllC_out0_pllA_invalid
+test_159_issue_80_phasesync_out11_pllA_invalid.json
+GUI test running for test_159_issue_80_phasesync_out11_pllA_invalid
+test_160_issue_80_lwmB_out11_pllA_invalid.json
+GUI test running for test_160_issue_80_lwmB_out11_pllA_invalid
+test_161_issue_80_int_zdm_out11_pllD_out0_pllB_invalid.json
+GUI test running for test_161_issue_80_int_zdm_out11_pllD_out0_pllB_invalid
+test_162_issue_291_phasesync_BCD_input_invalid.json
+GUI test running for test_162_issue_291_phasesync_BCD_input_invalid
+test_163_EEPROM_Addr0_typ64x1024_Bid1.json
+GUI test running for test_163_EEPROM_Addr0_typ64x1024_Bid1
+test_164_EEPROM_Addr1_typ128x1024_Bid2.json
+GUI test running for test_164_EEPROM_Addr1_typ128x1024_Bid2
+test_165_EEPROM_Addr2_typ256x1024_Bid4.json
+GUI test running for test_165_EEPROM_Addr2_typ256x1024_Bid4
+test_166_EEPROM_Addr3_typ512x1024_Bid8.json
+GUI test running for test_166_EEPROM_Addr3_typ512x1024_Bid8
+test_167_EEPROM_Addr7_typ1024x1024_Bid16.json
+GUI test running for test_167_EEPROM_Addr7_typ1024x1024_Bid16
+test_168_GPIO_output_0P_CLN_CLS_CFFDN_CCFDN_CFFDS_CCFDS_CLWFDS.json
+GUI test running for test_168_GPIO_output_0P_CLN_CLS_CFFDN_CCFDN_CFFDS_CCFDS_CLWFDS
+test_169_GPIO_output_AN_APCMN_AEN_ATDRN_APN_APHFN_GPO.json
+GUI test running for test_169_GPIO_output_AN_APCMN_AEN_ATDRN_APN_APHFN_GPO
+test_170_GPIO_output_APILLN_APOLLN_APPLLN_ACMN_ACMFFDN_ACMCFDN_ACMCLN.json
+GUI test running for test_170_GPIO_output_APILLN_APOLLN_APPLLN_ACMN_ACMFFDN_ACMCFDN_ACMCLN
+test_171_GPIO_output_CEN_ALEN_PIEN_DIEN_ESEN_WAEN_DAEN.json
+GUI test running for test_171_GPIO_output_CEN_ALEN_PIEN_DIEN_ESEN_WAEN_DAEN
+test_172_GPIO_output_CMPLLN_CMPLLS_PAPLLN_PAILLLS_PAOLLLS_PAPLLS_PAHFN.json
+GUI test running for test_172_GPIO_output_CMPLLN_CMPLLS_PAPLLN_PAILLLS_PAOLLLS_PAPLLS_PAHFN
+test_173_GPIO_output_ERDTS_STS_DDS_SDS_SDS_CES_ALES.json
+GUI test running for test_173_GPIO_output_ERDTS_STS_DDS_SDS_SDS_CES_ALES
+test_174_GPIO_output_intrpt_ERDN_ERDTN_STN_DDN_SDN_SDN.json
+GUI test running for test_174_GPIO_output_intrpt_ERDN_ERDTN_STN_DDN_SDN_SDN
+test_175_GPIO_output_PAHFS_PATDRN_PATDRS_GPO.json
+GUI test running for test_175_GPIO_output_PAHFS_PATDRN_PATDRS_GPO
+test_176_GPIO_CID_PAT_ODC.json
+GUI test running for test_176_GPIO_CID_PAT_ODC
+test_177_GPIO_vdd2_5v_pll_dco_selct_bit_Man_input_clk_sel_bit.json
+GUI test running for test_177_GPIO_vdd2_5v_pll_dco_selct_bit_Man_input_clk_sel_bit
+test_178_programmig_error_GPIO_output_PIES_DIES_ESES_WAES_DAES_XCLS_XCLN.json
+GUI test running for test_178_programmig_error_GPIO_output_PIES_DIES_ESES_WAES_DAES_XCLS_XCLN
+test_179_GPIO_DCO_incrment_decrmnt_divder_rstrt_FEE.json
+GUI test running for test_179_GPIO_DCO_incrment_decrmnt_divder_rstrt_FEE
+test_180_GPIO_sys_ref_PLLABCD_Man_inp_spare_clk_slt.json
+GUI test running for test_180_GPIO_sys_ref_PLLABCD_Man_inp_spare_clk_slt
+test_181_GPIO_sync_B_CID_FEE_ODC.json
+GUI test running for test_181_GPIO_sync_B_CID_FEE_ODC
+test_182_PLLAB_Out11_10_9_8_phfl.json
+GUI test running for test_182_PLLAB_Out11_10_9_8_phfl
+test_185_itdc_chnl0_chnl3_chnl5_chnl8.json
+GUI test running for test_185_itdc_chnl0_chnl3_chnl5_chnl8
+test_186_O11_syncb_sysref_O9_pulser_O10_continous.json
+GUI test running for test_186_O11_syncb_sysref_O9_pulser_O10_continous
+test_187_INTSYNC_case1_not_synthesable_error.json
+GUI test running for test_187_INTSYNC_case1_not_synthesable_error
+test_188_case1_INTSYNC_not_possible.json
+GUI test running for test_188_case1_INTSYNC_not_possible
+test_189_case1_INTSYNC.json
+GUI test running for test_189_case1_INTSYNC
+test_190_case2_INTSYNC.json
+GUI test running for test_190_case2_INTSYNC
+test_191_case2_2_INTSYNC_not_possible.json
+GUI test running for test_191_case2_2_INTSYNC_not_possible
+test_192_case2_2_Critical_frequency_Error_file.json
+GUI test running for test_192_case2_2_Critical_frequency_Error_file
+test_193_case2_1.json
+GUI test running for test_193_case2_1
+test_194_case2_1_INTSYNC_not_possible.json
+GUI test running for test_194_case2_1_INTSYNC_not_possible
+test_195_case3_2_INTSYNC_not_synthesisable_error.json
+GUI test running for test_195_case3_2_INTSYNC_not_synthesisable_error
+test_196_case3_2_INTSYNC_not_possible.json
+GUI test running for test_196_case3_2_INTSYNC_not_possible
+test_197_case3_2.json
+GUI test running for test_197_case3_2
+test_198_case3_1.json
+GUI test running for test_198_case3_1
+test_199_case3_1.json
+GUI test running for test_199_case3_1
+test_200_case3_1_Output_11.json
+GUI test running for test_200_case3_1_Output_11
+test_201_case4_2_1.json
+GUI test running for test_201_case4_2_1
+test_202_case4_1_1.json
+GUI test running for test_202_case4_1_1
+test_203_case4_1_2.json
+GUI test running for test_203_case4_1_2
+test_204_case4_2_2_INTSYNC_not_possible.json
+GUI test running for test_204_case4_2_2_INTSYNC_not_possible
+test_205_case4_2_2.json
+GUI test running for test_205_case4_2_2
+test_206_case4_16_Divin_not_synths.json
+GUI test running for test_206_case4_16_Divin_not_synths
+test_207_phfl_clock_switch.json
+GUI test running for test_207_phfl_clock_switch
+test_208_intsync_plld.json
+GUI test running for test_208_intsync_plld
+test_209_phasesync_no_input.json
+GUI test running for test_209_phasesync_no_input
+test_210_pll_dco_select_bit.json
+GUI test running for test_210_pll_dco_select_bit
+test_211_PLL_SyncB_select_bit.json
+GUI test running for test_211_PLL_SyncB_select_bit
+--- 0:00:02.527049 seconds ---
+Point(x=3348, y=601)
+[4;33mReloaded modules[24m: webbrowser, ctypes.util, doctest, diff_state_json, fractions, decimal, _decimal, diff_nvm, ignore_list[0m
+Point(x=2445, y=172)
+Test_9_Low_tdc_freq_no_fin_frac_FTPLL.json
+GUI test running for Test_9_Low_tdc_freq_no_fin_frac_FTPLL
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_1_HasNoInputAndNoOutput_INTSYNC.json
+GUI test running for test_1_HasNoInputAndNoOutput_INTSYNC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_2_HasInputAndOutput_INTSYNC.json
+GUI test running for test_2_HasInputAndOutput_INTSYNC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_3_HasInputAndOutputNotPossible_INTSYNC.json
+GUI test running for test_3_HasInputAndOutputNotPossible_INTSYNC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_4_HasInputAndNoOutput_INTSYNC.json
+GUI test running for test_4_HasInputAndNoOutput_INTSYNC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_5_1pps_INTSYNC.json
+GUI test running for test_5_1pps_INTSYNC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_6_multiple_Nd_of_tdc_FTPLL.json
+GUI test running for test_6_multiple_Nd_of_tdc_FTPLL
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_7_low_tdc_lcm_FTPLL.json
+GUI test running for test_7_low_tdc_lcm_FTPLL
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_8_no_multiples_of_tdc_FTPLL.json
+GUI test running for test_8_no_multiples_of_tdc_FTPLL
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_10_no_tdc_no_gcd_FTPLL.json
+GUI test running for test_10_no_tdc_no_gcd_FTPLL
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_11_trig_edge_phfl_less_than_2.json
+GUI test running for test_11_trig_edge_phfl_less_than_2
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_12_w2_div_bw_2_15.json
+GUI test running for test_12_w2_div_bw_2_15
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_13_1_diff_1_1Pinput_1_output.json
+GUI test running for test_13_1_diff_1_1Pinput_1_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_14_1_diffrential_input_one_output.json
+GUI test running for test_14_1_diffrential_input_one_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_15_1_input_1_output.json
+GUI test running for test_15_1_input_1_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_16_1_input_12_output.json
+GUI test running for test_16_1_input_12_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_17_1_output.json
+GUI test running for test_17_1_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_18_10_input_1_output.json
+GUI test running for test_18_10_input_1_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_19_12_output.json
+GUI test running for test_19_12_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_21_71_PLLfoutsNotSynthesisableWithinpllFVCOrangeLF_AC.json
+GUI test running for test_21_71_PLLfoutsNotSynthesisableWithinpllFVCOrangeLF_AC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_22_72_PLLfoutsNotSynthesisableWithinpllFVCOrangeHF_BD.json
+GUI test running for test_22_72_PLLfoutsNotSynthesisableWithinpllFVCOrangeHF_BD
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_23_78_INTSYNCisNotPossible.json
+GUI test running for test_23_78_INTSYNCisNotPossible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_24_79_InternalFreqLessThanMinimumSpecification.json
+GUI test running for test_24_79_InternalFreqLessThanMinimumSpecification
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_25_80_NoneOfThePLLsWithINTSYNCInputAndInZDMhaveAnOutputAndThisConfigurationIsNotImplementable.json
+GUI test running for test_25_80_NoneOfThePLLsWithINTSYNCInputAndInZDMhaveAnOutputAndThisConfigurationIsNotImplementable
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_26_Adjacent_outputs_12k_20M.json
+GUI test running for test_26_Adjacent_outputs_12k_20M
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_27_Adjacent_outputs_100k_20M_se_de.json
+GUI test running for test_27_Adjacent_outputs_100k_20M_se_de
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_28_all_Diffrential_input_one_output.json
+GUI test running for test_28_all_Diffrential_input_one_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_29_all_pll_freerun_enable.json
+GUI test running for test_29_all_pll_freerun_enable
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_30_au5518_input_config_fe_gui_1_updated.json
+GUI test running for test_30_au5518_input_config_fe_gui_1_updated
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_31_onchip_bw_null.json
+GUI test running for test_31_onchip_bw_null
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_32_Clockloss_trig_clr_PHFL.json
+GUI test running for test_32_Clockloss_trig_clr_PHFL
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_33_CL_threshold_fin_int_by_bw.json
+GUI test running for test_33_CL_threshold_fin_int_by_bw
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_34_Clockloss_trig_lessthan_clr.json
+GUI test running for test_34_Clockloss_trig_lessthan_clr
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_35_CLthreshold_finint_fastbw.json
+GUI test running for test_35_CLthreshold_finint_fastbw
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_36_Doubler_recommended.json
+GUI test running for test_36_Doubler_recommended
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_37_aau_case_1.json
+GUI test running for test_37_aau_case_1
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_38_aau_case_2.json
+GUI test running for test_38_aau_case_2
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_39_output_delay.json
+GUI test running for test_39_output_delay
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_40_phase_hopping_loss_less.json
+GUI test running for test_40_phase_hopping_loss_less
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_41_phase_lock_loss_diff_fin_int.json
+GUI test running for test_41_phase_lock_loss_diff_fin_int
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_42_Xo_freq_24Mhz_invalid.json
+GUI test running for test_42_Xo_freq_24Mhz_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_43_Xo_freq_126Mhz_doubler_invalid.json
+GUI test running for test_43_Xo_freq_126Mhz_doubler_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_44_Xo_freq_161Mhz_warning.json
+GUI test running for test_44_Xo_freq_161Mhz_warning
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_45_Xo_freq_250Mhz_warning.json
+GUI test running for test_45_Xo_freq_250Mhz_warning
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_46_Xo_freq_251Mhz_invalid.json
+GUI test running for test_46_Xo_freq_251Mhz_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_47_ZDM_in3sync_together_not_possible.json
+GUI test running for test_47_ZDM_in3sync_together_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_48_ZDM_PBO_together_not_possible.json
+GUI test running for test_48_ZDM_PBO_together_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_49_Acg_incompatible_with_4N.json
+GUI test running for test_49_Acg_incompatible_with_4N
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_50_Acg_incompatible_with_4P_differntial.json
+GUI test running for test_50_Acg_incompatible_with_4P_differntial
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_51_Acg_incompatible_with_o5_o6_o7.json
+GUI test running for test_51_Acg_incompatible_with_o5_o6_o7
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_52_Acg_incompatible_with_pllD.json
+GUI test running for test_52_Acg_incompatible_with_pllD
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_53_clk_3p_diabled_for_in3sync_pll.json
+GUI test running for test_53_clk_3p_diabled_for_in3sync_pll
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_54_clk_3p_to_in3sync_pll.json
+GUI test running for test_54_clk_3p_to_in3sync_pll
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_55_divn1error_intsync.json
+GUI test running for test_55_divn1error_intsync
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_56_e1_intsync_enbl_noip.json
+GUI test running for test_56_e1_intsync_enbl_noip
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_57_e3_intsync_not_possible.json
+GUI test running for test_57_e3_intsync_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_58_Ext_zdm_active_fdbk_clk.json
+GUI test running for test_58_Ext_zdm_active_fdbk_clk
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_60_Ext_zdm_fdbk_clk_disabled.json
+GUI test running for test_60_Ext_zdm_fdbk_clk_disabled
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_61_Ext_zdm_fdbk_output_frequency_same.json
+GUI test running for test_61_Ext_zdm_fdbk_output_frequency_same
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_62_Ext_zdm_fdbk_same.json
+GUI test running for test_62_Ext_zdm_fdbk_same
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_63_Ext_zdm_output_same.json
+GUI test running for test_63_Ext_zdm_output_same
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_64_fp_error_at_one_clk_enable.json
+GUI test running for test_64_fp_error_at_one_clk_enable
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_65_fresh_state_no_pll_no_op.json
+GUI test running for test_65_fresh_state_no_pll_no_op
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_66_ftpll_divn2_issue.json
+GUI test running for test_66_ftpll_divn2_issue
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_67_fvco_not_possible.json
+GUI test running for test_67_fvco_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_68_Golden_clk_require_monitors.json
+GUI test running for test_68_Golden_clk_require_monitors
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_70_decimation_null.json
+GUI test running for test_70_decimation_null
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_71_GPIO_selection_manual_input_clk_select_bit3.json
+GUI test running for test_71_GPIO_selection_manual_input_clk_select_bit3
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_72_GPIO_selection_pll_dco_select_bit2.json
+GUI test running for test_72_GPIO_selection_pll_dco_select_bit2
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_73_GPIO_selection_pllA_manual_input_spare_clk_ipclock_Auto.json
+GUI test running for test_73_GPIO_selection_pllA_manual_input_spare_clk_ipclock_Auto
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_74_GPIO_selection_pllD_manual_input_spare_clk_inactive.json
+GUI test running for test_74_GPIO_selection_pllD_manual_input_spare_clk_inactive
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_75_GPIO_selection_pllsyncb_select_bit2.json
+GUI test running for test_75_GPIO_selection_pllsyncb_select_bit2
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_76_Input_clk_freq_high_invalid_de.json
+GUI test running for test_76_Input_clk_freq_high_invalid_de
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_77_Input_clk_freq_high_invalid_se.json
+GUI test running for test_77_Input_clk_freq_high_invalid_se
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_78_Input_clk_freq_low_invalid_se.json
+GUI test running for test_78_Input_clk_freq_low_invalid_se
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_79_INTSYNC_input_1_output.json
+GUI test running for test_79_INTSYNC_input_1_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_80_input_not_resonable.json
+GUI test running for test_80_input_not_resonable
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_81_intsync_issue.json
+GUI test running for test_81_intsync_issue
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_82_intsync_profile.json
+GUI test running for test_82_intsync_profile
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_83_ITDC_clk_exceed_250Mhz.json
+GUI test running for test_83_ITDC_clk_exceed_250Mhz
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_84_ITDC_clocks_disabled.json
+GUI test running for test_84_ITDC_clocks_disabled
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_85_ITDC_clocks_integer_related.json
+GUI test running for test_85_ITDC_clocks_integer_related
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_86_ITDC_clocks_same.json
+GUI test running for test_86_ITDC_clocks_same
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_87_key_error_sdco.json
+GUI test running for test_87_key_error_sdco
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_88_list_index_error.json
+GUI test running for test_88_list_index_error
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_89_low_wander_a_b_c.json
+GUI test running for test_89_low_wander_a_b_c
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_90_LWM_pllA_disabled.json
+GUI test running for test_90_LWM_pllA_disabled
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_91_value_error_CMONPLL.json
+GUI test running for test_91_value_error_CMONPLL
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_92_pllA_op_11_internal_termination_enabled.json
+GUI test running for test_92_pllA_op_11_internal_termination_enabled
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_93_OCXO_input_1_output.json
+GUI test running for test_93_OCXO_input_1_output
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_94_OPnotSynthesisable.json
+GUI test running for test_94_OPnotSynthesisable
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_95_output_clk_freq_high_invalid_de.json
+GUI test running for test_95_output_clk_freq_high_invalid_de
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_96_output_clk_freq_high_invalid_se.json
+GUI test running for test_96_output_clk_freq_high_invalid_se
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_97_output_clk_freq_low_invalid_se.json
+GUI test running for test_97_output_clk_freq_low_invalid_se
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_98_Phasesync_other_plls_disabled.json
+GUI test running for test_98_Phasesync_other_plls_disabled
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_99_Phasesync_pllA_disabled.json
+GUI test running for test_99_Phasesync_pllA_disabled
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_100_PHFL_int_or_ext_zdm.json
+GUI test running for test_100_PHFL_int_or_ext_zdm
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_101_phfl_syncB_invalid.json
+GUI test running for test_101_phfl_syncB_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_102_pll_min_spec.json
+GUI test running for test_102_pll_min_spec
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_103_pll_not_synthesizable.json
+GUI test running for test_103_pll_not_synthesizable
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_104_PLLA_FT_enabled.json
+GUI test running for test_104_PLLA_FT_enabled
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_105_PLLC_lwm_failing_form_FP.json
+GUI test running for test_105_PLLC_lwm_failing_form_FP
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_105_PLLC_lwm_failing_form_FP_updated.json
+GUI test running for test_105_PLLC_lwm_failing_form_FP_updated
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_106_pllft_fp_error.json
+GUI test running for test_106_pllft_fp_error
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_107_pllft_Frequency_planning_failed_on_sdco_enable.json
+GUI test running for test_107_pllft_Frequency_planning_failed_on_sdco_enable
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_108_ptp_ext_filter_invalid.json
+GUI test running for test_108_ptp_ext_filter_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_109_SDCO_loop_level2.json
+GUI test running for test_109_SDCO_loop_level2
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_110_SDCO_loop_level3.json
+GUI test running for test_110_SDCO_loop_level3
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_111_SDCO_loop_level4.json
+GUI test running for test_111_SDCO_loop_level4
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_112_SDCO_rx_pll_selection_corresponding_tx_disabled.json
+GUI test running for test_112_SDCO_rx_pll_selection_corresponding_tx_disabled
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_113_SDCO_rx_pll_selection_inactive.json
+GUI test running for test_113_SDCO_rx_pll_selection_inactive
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_114_SDCO_rx_pll_selection_tx_same.json
+GUI test running for test_114_SDCO_rx_pll_selection_tx_same
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_115_SE_complementary_op_on.json
+GUI test running for test_115_SE_complementary_op_on
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_116_SE_OP_ON_mandatory.json
+GUI test running for test_116_SE_OP_ON_mandatory
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_117_Sysref_mode_invalid.json
+GUI test running for test_117_Sysref_mode_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_118_Sysref_phfl_mode_invalid.json
+GUI test running for test_118_Sysref_phfl_mode_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_119_LWM_PLLB.json
+GUI test running for test_119_LWM_PLLB
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_120_LWM_PllB_Co10_D_noIO.json
+GUI test running for test_120_LWM_PllB_Co10_D_noIO
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_121_LWM_PllBCD.json
+GUI test running for test_121_LWM_PllBCD
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_122_LWMPhaseSync_PllBCD.json
+GUI test running for test_122_LWMPhaseSync_PllBCD
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_123_PhaseSync_PLLAhasinput_BCDfr.json
+GUI test running for test_123_PhaseSync_PLLAhasinput_BCDfr
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_124_PhaseSync_PllBCD.json
+GUI test running for test_124_PhaseSync_PllBCD
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_125_PhaseSync_PllBCD_withOutput.json
+GUI test running for test_125_PhaseSync_PllBCD_withOutput
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_126_PhaseSync_PllD_noOutput.json
+GUI test running for test_126_PhaseSync_PllD_noOutput
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_127_gui_not_responding.json
+GUI test running for test_127_gui_not_responding
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_128_e_fvco_xo_clash.json
+GUI test running for test_128_e_fvco_xo_clash
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_129_LWM_pllA_freerun_invalid.json
+GUI test running for test_129_LWM_pllA_freerun_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_130_ptp_PLL_ABCD.json
+GUI test running for test_130_ptp_PLL_ABCD
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_131_Phasesync_pllA_freerun_invalid.json
+GUI test running for test_131_Phasesync_pllA_freerun_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_132_issue_268_phfl_extzdm_output_phfl.json
+GUI test running for test_132_issue_268_phfl_extzdm_output_phfl
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_133_issue_213_gpio_phfl_warning.json
+GUI test running for test_133_issue_213_gpio_phfl_warning
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_134_issue_213_gpio_syncb_warning.json
+GUI test running for test_134_issue_213_gpio_syncb_warning
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_135_issue_213_gpio_sysref_warning.json
+GUI test running for test_135_issue_213_gpio_sysref_warning
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_136_issue_221_acg_00_pllD_possible.json
+GUI test running for test_136_issue_221_acg_00_pllD_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_137_issue_221_acg_01_pllD_not_possible.json
+GUI test running for test_137_issue_221_acg_01_pllD_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_138_issue_221_acg_10_pllD_not_possible.json
+GUI test running for test_138_issue_221_acg_10_pllD_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_139_issue_221_acg_11_pllD_not_possible.json
+GUI test running for test_139_issue_221_acg_11_pllD_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_141_issue_211_external_filter_warning.json
+GUI test running for test_141_issue_211_external_filter_warning
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_142_case1_CPU_clk_10_4_outputs.json
+GUI test running for test_142_case1_CPU_clk_10_4_outputs
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_143_case1_CPU_clk_11_4_outputs.json
+GUI test running for test_143_case1_CPU_clk_11_4_outputs
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_144_case1_issue_221_ACG_disable_PLLD7p4G.json
+GUI test running for test_144_case1_issue_221_ACG_disable_PLLD7p4G
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_145_case1_issue_221_CPU_clk_01_4_outputs.json
+GUI test running for test_145_case1_issue_221_CPU_clk_01_4_outputs
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_146_case2_CPU_clk_01_outputs_100_125_156p25.json
+GUI test running for test_146_case2_CPU_clk_01_outputs_100_125_156p25
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_147_case2_CPU_clk_10_outputs_100_125.json
+GUI test running for test_147_case2_CPU_clk_10_outputs_100_125
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_148_case2_CPU_clk_11_outputs_100_125_156p25SE.json
+GUI test running for test_148_case2_CPU_clk_11_outputs_100_125_156p25SE
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_149_divn_error_profile.json
+GUI test running for test_149_divn_error_profile
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_150_issue_231_61p44_122p88.json
+GUI test running for test_150_issue_231_61p44_122p88
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_151_issue_192_ptp_bw_slope.json
+GUI test running for test_151_issue_192_ptp_bw_slope
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_152_vdd_LVPECL_invalid.json
+GUI test running for test_152_vdd_LVPECL_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_153_Xo_freq_125Mhz__doubler_warning.json
+GUI test running for test_153_Xo_freq_125Mhz__doubler_warning
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_154_issue_226_pllA_SDCO_pllB_lwm.json
+GUI test running for test_154_issue_226_pllA_SDCO_pllB_lwm
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_155_issue_226_pllA_SDCO_pllB_phasesync.json
+GUI test running for test_155_issue_226_pllA_SDCO_pllB_phasesync
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_156_issue_165_intsync.json
+GUI test running for test_156_issue_165_intsync
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_157_Backend_error_input_Hz.json
+GUI test running for test_157_Backend_error_input_Hz
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_158_issue_80_int_zdm_out11_pllC_out0_pllA_invalid.json
+GUI test running for test_158_issue_80_int_zdm_out11_pllC_out0_pllA_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_159_issue_80_phasesync_out11_pllA_invalid.json
+GUI test running for test_159_issue_80_phasesync_out11_pllA_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_160_issue_80_lwmB_out11_pllA_invalid.json
+GUI test running for test_160_issue_80_lwmB_out11_pllA_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_161_issue_80_int_zdm_out11_pllD_out0_pllB_invalid.json
+GUI test running for test_161_issue_80_int_zdm_out11_pllD_out0_pllB_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_162_issue_291_phasesync_BCD_input_invalid.json
+GUI test running for test_162_issue_291_phasesync_BCD_input_invalid
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_163_EEPROM_Addr0_typ64x1024_Bid1.json
+GUI test running for test_163_EEPROM_Addr0_typ64x1024_Bid1
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_164_EEPROM_Addr1_typ128x1024_Bid2.json
+GUI test running for test_164_EEPROM_Addr1_typ128x1024_Bid2
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_165_EEPROM_Addr2_typ256x1024_Bid4.json
+GUI test running for test_165_EEPROM_Addr2_typ256x1024_Bid4
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_166_EEPROM_Addr3_typ512x1024_Bid8.json
+GUI test running for test_166_EEPROM_Addr3_typ512x1024_Bid8
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_167_EEPROM_Addr7_typ1024x1024_Bid16.json
+GUI test running for test_167_EEPROM_Addr7_typ1024x1024_Bid16
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_168_GPIO_output_0P_CLN_CLS_CFFDN_CCFDN_CFFDS_CCFDS_CLWFDS.json
+GUI test running for test_168_GPIO_output_0P_CLN_CLS_CFFDN_CCFDN_CFFDS_CCFDS_CLWFDS
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_169_GPIO_output_AN_APCMN_AEN_ATDRN_APN_APHFN_GPO.json
+GUI test running for test_169_GPIO_output_AN_APCMN_AEN_ATDRN_APN_APHFN_GPO
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_170_GPIO_output_APILLN_APOLLN_APPLLN_ACMN_ACMFFDN_ACMCFDN_ACMCLN.json
+GUI test running for test_170_GPIO_output_APILLN_APOLLN_APPLLN_ACMN_ACMFFDN_ACMCFDN_ACMCLN
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_171_GPIO_output_CEN_ALEN_PIEN_DIEN_ESEN_WAEN_DAEN.json
+GUI test running for test_171_GPIO_output_CEN_ALEN_PIEN_DIEN_ESEN_WAEN_DAEN
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_172_GPIO_output_CMPLLN_CMPLLS_PAPLLN_PAILLLS_PAOLLLS_PAPLLS_PAHFN.json
+GUI test running for test_172_GPIO_output_CMPLLN_CMPLLS_PAPLLN_PAILLLS_PAOLLLS_PAPLLS_PAHFN
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_173_GPIO_output_ERDTS_STS_DDS_SDS_SDS_CES_ALES.json
+GUI test running for test_173_GPIO_output_ERDTS_STS_DDS_SDS_SDS_CES_ALES
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_174_GPIO_output_intrpt_ERDN_ERDTN_STN_DDN_SDN_SDN.json
+GUI test running for test_174_GPIO_output_intrpt_ERDN_ERDTN_STN_DDN_SDN_SDN
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_175_GPIO_output_PAHFS_PATDRN_PATDRS_GPO.json
+GUI test running for test_175_GPIO_output_PAHFS_PATDRN_PATDRS_GPO
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_176_GPIO_CID_PAT_ODC.json
+GUI test running for test_176_GPIO_CID_PAT_ODC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_177_GPIO_vdd2_5v_pll_dco_selct_bit_Man_input_clk_sel_bit.json
+GUI test running for test_177_GPIO_vdd2_5v_pll_dco_selct_bit_Man_input_clk_sel_bit
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_178_programmig_error_GPIO_output_PIES_DIES_ESES_WAES_DAES_XCLS_XCLN.json
+GUI test running for test_178_programmig_error_GPIO_output_PIES_DIES_ESES_WAES_DAES_XCLS_XCLN
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_179_GPIO_DCO_incrment_decrmnt_divder_rstrt_FEE.json
+GUI test running for test_179_GPIO_DCO_incrment_decrmnt_divder_rstrt_FEE
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_180_GPIO_sys_ref_PLLABCD_Man_inp_spare_clk_slt.json
+GUI test running for test_180_GPIO_sys_ref_PLLABCD_Man_inp_spare_clk_slt
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_181_GPIO_sync_B_CID_FEE_ODC.json
+GUI test running for test_181_GPIO_sync_B_CID_FEE_ODC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_182_PLLAB_Out11_10_9_8_phfl.json
+GUI test running for test_182_PLLAB_Out11_10_9_8_phfl
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_185_itdc_chnl0_chnl3_chnl5_chnl8.json
+GUI test running for test_185_itdc_chnl0_chnl3_chnl5_chnl8
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_186_O11_syncb_sysref_O9_pulser_O10_continous.json
+GUI test running for test_186_O11_syncb_sysref_O9_pulser_O10_continous
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_187_INTSYNC_case1_not_synthesable_error.json
+GUI test running for test_187_INTSYNC_case1_not_synthesable_error
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_188_case1_INTSYNC_not_possible.json
+GUI test running for test_188_case1_INTSYNC_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_189_case1_INTSYNC.json
+GUI test running for test_189_case1_INTSYNC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_190_case2_INTSYNC.json
+GUI test running for test_190_case2_INTSYNC
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_191_case2_2_INTSYNC_not_possible.json
+GUI test running for test_191_case2_2_INTSYNC_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_192_case2_2_Critical_frequency_Error_file.json
+GUI test running for test_192_case2_2_Critical_frequency_Error_file
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_193_case2_1.json
+GUI test running for test_193_case2_1
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_194_case2_1_INTSYNC_not_possible.json
+GUI test running for test_194_case2_1_INTSYNC_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_195_case3_2_INTSYNC_not_synthesisable_error.json
+GUI test running for test_195_case3_2_INTSYNC_not_synthesisable_error
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_196_case3_2_INTSYNC_not_possible.json
+GUI test running for test_196_case3_2_INTSYNC_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_197_case3_2.json
+GUI test running for test_197_case3_2
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_198_case3_1.json
+GUI test running for test_198_case3_1
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_199_case3_1.json
+GUI test running for test_199_case3_1
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_200_case3_1_Output_11.json
+GUI test running for test_200_case3_1_Output_11
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_201_case4_2_1.json
+GUI test running for test_201_case4_2_1
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_202_case4_1_1.json
+GUI test running for test_202_case4_1_1
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_203_case4_1_2.json
+GUI test running for test_203_case4_1_2
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_204_case4_2_2_INTSYNC_not_possible.json
+GUI test running for test_204_case4_2_2_INTSYNC_not_possible
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_205_case4_2_2.json
+GUI test running for test_205_case4_2_2
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_206_case4_16_Divin_not_synths.json
+GUI test running for test_206_case4_16_Divin_not_synths
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_207_phfl_clock_switch.json
+GUI test running for test_207_phfl_clock_switch
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_208_intsync_plld.json
+GUI test running for test_208_intsync_plld
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_209_phasesync_no_input.json
+GUI test running for test_209_phasesync_no_input
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_210_pll_dco_select_bit.json
+GUI test running for test_210_pll_dco_select_bit
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+test_211_PLL_SyncB_select_bit.json
+GUI test running for test_211_PLL_SyncB_select_bit
+------------------------------- JSON COMPARISON  -------------------------------
+************* No output files found in output//json ***********
+*********** input_files and output_files do not match *********
+--------------------------------------------------------------------------------
+
+
+------------------------------- NVM COMPARISON  --------------------------------
+************* No output files found in output//nvm ***********
+--------------------------------------------------------------------------------
+
+
+################################################################################
+
+
+--- 0:00:10.575895 seconds ---
+Point(x=3323, y=229)

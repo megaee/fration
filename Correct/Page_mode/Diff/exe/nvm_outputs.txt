@@ -1,0 +1,51 @@
+Profile0.py
+GUI test running for Profile0
+------>Invalid state<------
+json dump successful
+nvm dump successful
+##############################################################################
+Processing file Profile0_json.json vs Profile0_json.json
+ :
+ -  _appversion  :  v2.3.3rc1
+ +  _appversion  :  v2.3.3
+##############################################################################
+
+
+##############################################################################
+comparing Profile0_nvm.json and Profile0_nvm.json
+No diff found
+#############################################################################################
+Profile1.py
+GUI test running for Profile1
+json dump successful
+nvm dump successful
+##############################################################################
+Processing file Profile1_json.json vs Profile1_json.json
+ :
+ -  _appversion  :  v2.3.3rc1
+ +  _appversion  :  v2.3.3
+##############################################################################
+
+
+##############################################################################
+comparing Profile1_nvm.nvm.py and Profile1_nvm.nvm.py
+No diff found
+#############################################################################################
+Profile2.py
+GUI test running for Profile2
+json dump successful
+nvm dump successful
+##############################################################################
+Processing file Profile2_json.json vs Profile2_json.json
+ :
+ -  _appversion  :  v2.3.3rc1
+ +  _appversion  :  v2.3.3
+##############################################################################
+
+
+##############################################################################
+comparing Profile2_nvm.nvm.py and Profile2_nvm.nvm.py
+No diff found
+#############################################################################################
+Profile3.py
+GUI test running for Profile3

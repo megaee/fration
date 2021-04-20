@@ -1,0 +1,4566 @@
+#############################################################################################
+Processing file Profile0.py vs Profile1.py
+inputs->0P :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->0P->value->freq :
+ -  parsed  :  None
+ +  parsed  :  50000000
+inputs->0P->value->freq :
+ -  value  :  
+ +  value  :  50MHz
+inputs->0P->value->plls :
+ -  A  :  False
+ +  A  :  True
+outputs->value->11 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->11->value->freq :
+ -  parsed  :  None
+ +  parsed  :  200000000
+outputs->value->11->value->freq :
+ -  value  :  
+ +  value  :  200MHz
+outputs->value->11->value->m_de :
+ -  state  :  
+ +  state  :  de
+outputs->value->11->value->m_de->value :
+ -  submode  :  
+ +  submode  :  LVDS
+outputs->value->11->value->m_de->value->swing :
+ -  parsed  :  None
+ +  parsed  :  1/10
+outputs->value->11->value->m_de->value->swing :
+ -  value  :  
+ +  value  :  0.1 V
+outputs->value->11->value->m_se :
+ -  state  :  
+ +  state  :  de
+outputs->value->11->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->11->value->pll :
+ -  value  :  
+ +  value  :  A
+plls->A :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->A->value->free_running :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->A->value->free_running->value->sw_oc->value->fast :
+ -  parsed  :  None
+ +  parsed  :  100
+plls->A->value->free_running->value->sw_oc->value->fast :
+ -  value  :  
+ +  value  :  100
+plls->A->value->free_running->value->sw_oc->value->normal :
+ -  parsed  :  None
+ +  parsed  :  100
+plls->A->value->free_running->value->sw_oc->value->normal :
+ -  value  :  
+ +  value  :  100
+plls->A->value :
+ -  order_in  :  []
+ +  order_in  :  ['0P']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile1.py vs Profile2.py
+comms->spi :
+ -  wires  :  4
+ +  wires  :  3
+comms :
+ -  type  :  i2c
+ +  type  :  spi
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile2.py vs Profile3.py
+comms->spi :
+ -  wires  :  3
+ +  wires  :  4
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile3.py vs Profile4.py
+comms :
+ -  type  :  spi
+ +  type  :  i2c
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile4.py vs Profile5.py
+crystal->freq :
+ -  parsed  :  54000000
+ +  parsed  :  25000000
+crystal->freq :
+ -  value  :  54 MHz
+ +  value  :  17.5 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile5.py vs Profile6.py
+crystal->freq :
+ -  parsed  :  25000000
+ +  parsed  :  250000000
+crystal->freq :
+ -  value  :  17.5 MHz
+ +  value  :  250 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile6.py vs Profile7.py
+crystal :
+ -  doubler  :  True
+ +  doubler  :  False
+crystal->freq :
+ -  value  :  250 MHz
+ +  value  :  80 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile7.py vs Profile8.py
+crystal->freq :
+ -  parsed  :  250000000
+ +  parsed  :  25000000
+crystal->freq :
+ -  value  :  80 MHz
+ +  value  :  160 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile8.py vs Profile9.py
+crystal :
+ -  doubler  :  False
+ +  doubler  :  True
+crystal->freq :
+ -  parsed  :  25000000
+ +  parsed  :  54000000
+crystal->freq :
+ -  value  :  160 MHz
+ +  value  :  54 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile9.py vs Profile10.py
+crystal :
+ -  mode  :  LFF CL=8pF
+ +  mode  :  EX TCXO (AC)
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile10.py vs Profile11.py
+crystal :
+ -  mode  :  EX TCXO (AC)
+ +  mode  :  EX TCXO (DC)
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile11.py vs Profile12.py
+crystal :
+ -  mode  :  EX TCXO (DC)
+ +  mode  :  LFF CL=12pF
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile12.py vs Profile13.py
+ :
+ -  golden_clock  :  xtal
+ +  golden_clock  :  0P
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile13.py vs Profile14.py
+inputs->0P->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->0P->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->0P->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->0P->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile14.py vs Profile15.py
+ :
+ -  golden_clock  :  0P
+ +  golden_clock  :  xtal
+inputs->0P->value->freq :
+ -  parsed  :  50000000
+ +  parsed  :  1/2
+inputs->0P->value->freq :
+ -  value  :  50MHz
+ +  value  :  0.5 Hz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile15.py vs Profile16.py
+inputs->0P->value->freq :
+ -  parsed  :  1/2
+ +  parsed  :  250000000
+inputs->0P->value->freq :
+ -  value  :  0.5 Hz
+ +  value  :  250 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile16.py vs Profile17.py
+inputs->0P->value :
+ -  clock_couple  :  dc
+ +  clock_couple  :  ac
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile17.py vs Profile18.py
+inputs->0P->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile18.py vs Profile19.py
+inputs->0P->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile19.py vs Profile20.py
+inputs->0P->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  1/500
+inputs->0P->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  2 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile20.py vs Profile21.py
+inputs->0P->value->valid_timer :
+ -  parsed  :  1/500
+ +  parsed  :  32/125
+inputs->0P->value->valid_timer :
+ -  value  :  2 ms
+ +  value  :  256 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile21.py vs Profile22.py
+inputs->0P->value->valid_timer :
+ -  parsed  :  32/125
+ +  parsed  :  64
+inputs->0P->value->valid_timer :
+ -  value  :  256 ms
+ +  value  :  64 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile22.py vs Profile23.py
+inputs->0P->value->valid_timer :
+ -  parsed  :  64
+ +  parsed  :  1
+inputs->0P->value->valid_timer :
+ -  value  :  64 s
+ +  value  :  1 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile23.py vs Profile24.py
+inputs->0P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  7
+inputs->0P->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  7
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile24.py vs Profile25.py
+inputs->0P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  7
+ +  parsed  :  12
+inputs->0P->value->clock_loss->value->edge_trigger :
+ -  value  :  7
+ +  value  :  12
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile25.py vs Profile26.py
+inputs->0P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  12
+ +  parsed  :  3
+inputs->0P->value->clock_loss->value->edge_trigger :
+ -  value  :  12
+ +  value  :  3
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile26.py vs Profile27.py
+inputs->0P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  16
+inputs->0P->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  16
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile27.py vs Profile28.py
+inputs->0P->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  1
+inputs->0P->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  1
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile28.py vs Profile29.py
+inputs->0P->value->clock_loss->value->edge_clear :
+ -  parsed  :  1
+ +  parsed  :  5
+inputs->0P->value->clock_loss->value->edge_clear :
+ -  value  :  1
+ +  value  :  5
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile29.py vs Profile30.py
+inputs->0P->value->clock_loss->value->edge_clear :
+ -  parsed  :  5
+ +  parsed  :  12
+inputs->0P->value->clock_loss->value->edge_clear :
+ -  value  :  5
+ +  value  :  12
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile30.py vs Profile31.py
+inputs->0P->value->clock_loss->value->edge_clear :
+ -  parsed  :  12
+ +  parsed  :  15
+inputs->0P->value->clock_loss->value->edge_clear :
+ -  value  :  12
+ +  value  :  15
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile31.py vs Profile32.py
+inputs->0P->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  800
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile32.py vs Profile33.py
+inputs->0P->value->drift_coarse->value :
+ -  set  :  800
+ +  set  :  1300
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile33.py vs Profile34.py
+inputs->0P->value->drift_coarse->value :
+ -  set  :  1300
+ +  set  :  1600
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile34.py vs Profile35.py
+inputs->0P->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  100
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile35.py vs Profile36.py
+inputs->0P->value->drift_coarse->value :
+ -  clr  :  100
+ +  clr  :  600
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile36.py vs Profile37.py
+inputs->0P->value->drift_coarse->value :
+ -  clr  :  600
+ +  clr  :  1100
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile37.py vs Profile38.py
+inputs->0P->value->drift_coarse->value :
+ -  clr  :  1100
+ +  clr  :  1500
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile38.py vs Profile39.py
+inputs->0P->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  2
+inputs->0P->value->drift_fine :
+ -  warn  :  True
+ +  warn  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile39.py vs Profile40.py
+inputs->0P->value->drift_fine->value :
+ -  set  :  2
+ +  set  :  10
+inputs->0P->value->drift_fine :
+ -  warn  :  False
+ +  warn  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile40.py vs Profile41.py
+inputs->0P->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  256
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile41.py vs Profile42.py
+inputs->0P->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  2
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile42.py vs Profile43.py
+inputs->0P->value->drift_fine->value :
+ -  clr  :  2
+ +  clr  :  110
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile43.py vs Profile44.py
+inputs->0P->value->drift_fine->value :
+ -  clr  :  110
+ +  clr  :  216
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile44.py vs Profile45.py
+inputs->0P->value->plls :
+ -  B  :  False
+ +  B  :  True
+plls->B :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->free_running :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->free_running->value->sw_oc->value->fast :
+ -  parsed  :  None
+ +  parsed  :  4000
+plls->B->value->free_running->value->sw_oc->value->fast :
+ -  value  :  
+ +  value  :  4k
+plls->B->value->free_running->value->sw_oc->value->normal :
+ -  parsed  :  None
+ +  parsed  :  100
+plls->B->value->free_running->value->sw_oc->value->normal :
+ -  value  :  
+ +  value  :  100
+plls->B->value :
+ -  order_in  :  []
+ +  order_in  :  ['0P']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile45.py vs Profile46.py
+inputs->0P->value->plls :
+ -  C  :  False
+ +  C  :  True
+plls->C :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->C->value->free_running :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->C->value->free_running->value->sw_oc->value->fast :
+ -  parsed  :  None
+ +  parsed  :  4000
+plls->C->value->free_running->value->sw_oc->value->fast :
+ -  value  :  
+ +  value  :  4k
+plls->C->value->free_running->value->sw_oc->value->normal :
+ -  parsed  :  None
+ +  parsed  :  4000
+plls->C->value->free_running->value->sw_oc->value->normal :
+ -  value  :  
+ +  value  :  4k
+plls->C->value :
+ -  order_in  :  []
+ +  order_in  :  ['0P']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile46.py vs Profile47.py
+inputs->0P->value->plls :
+ -  D  :  False
+ +  D  :  True
+plls->D :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->D->value->free_running :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->D->value->free_running->value->sw_oc->value->fast :
+ -  parsed  :  None
+ +  parsed  :  2000
+plls->D->value->free_running->value->sw_oc->value->fast :
+ -  value  :  
+ +  value  :  2k
+plls->D->value->free_running->value->sw_oc->value->normal :
+ -  parsed  :  None
+ +  parsed  :  1000
+plls->D->value->free_running->value->sw_oc->value->normal :
+ -  value  :  
+ +  value  :  1k
+plls->D->value :
+ -  order_in  :  []
+ +  order_in  :  ['0P']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile47.py vs Profile48.py
+inputs->0P->value->plls :
+ -  FT  :  False
+ +  FT  :  True
+plls->FT->value->free_running :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->FT->value->free_running->value->sw_oc->value->fast :
+ -  parsed  :  None
+ +  parsed  :  100
+plls->FT->value->free_running->value->sw_oc->value->fast :
+ -  value  :  
+ +  value  :  100
+plls->FT->value->free_running->value->sw_oc->value->normal :
+ -  parsed  :  None
+ +  parsed  :  100
+plls->FT->value->free_running->value->sw_oc->value->normal :
+ -  value  :  
+ +  value  :  100
+plls->FT->value :
+ -  order_in  :  []
+ +  order_in  :  ['0P']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile48.py vs Profile49.py
+inputs->0N :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->0N->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->0N->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->0N->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  8
+inputs->0N->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  8
+inputs->0N->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  13
+inputs->0N->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  13
+inputs->0N->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->0N->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->0N->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->0N->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  300
+inputs->0N->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  1000
+inputs->0N->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->0N->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  68
+inputs->0N->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  142
+inputs->0N->value->freq :
+ -  parsed  :  None
+ +  parsed  :  100000000
+inputs->0N->value->freq :
+ -  value  :  
+ +  value  :  100MHz
+inputs->0N->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->0N->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->0N->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->0N->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->0N->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  32
+inputs->0N->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  32 s
+inputs->0P->value->freq :
+ -  parsed  :  250000000
+ +  parsed  :  50000000
+inputs->0P->value->freq :
+ -  value  :  250 MHz
+ +  value  :  50 MHz
+plls->A->value :
+ -  order_in  :  ['0P']
+ +  order_in  :  ['0P', '0N']
+plls->B->value :
+ -  order_in  :  ['0P']
+ +  order_in  :  ['0P', '0N']
+plls->C->value :
+ -  order_in  :  ['0P']
+ +  order_in  :  ['0P', '0N']
+plls->D->value :
+ -  order_in  :  ['0P']
+ +  order_in  :  ['0P', '0N']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile49.py vs Profile50.py
+inputs->1P :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->1P->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->1P->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->1P->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  8
+inputs->1P->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  8
+inputs->1P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  14
+inputs->1P->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  14
+inputs->1P->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->1P->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->1P->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->1P->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  200
+inputs->1P->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  1200
+inputs->1P->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->1P->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  4
+inputs->1P->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  60
+inputs->1P->value->freq :
+ -  parsed  :  None
+ +  parsed  :  150000000
+inputs->1P->value->freq :
+ -  value  :  
+ +  value  :  150MHz
+inputs->1P->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->1P->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->1P->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->1P->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->1P->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  1/500
+inputs->1P->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  2 ms
+plls->A->value :
+ -  order_in  :  ['0P', '0N']
+ +  order_in  :  ['0P', '0N', '1P']
+plls->B->value :
+ -  order_in  :  ['0P', '0N']
+ +  order_in  :  ['0P', '0N', '1P']
+plls->C->value :
+ -  order_in  :  ['0P', '0N']
+ +  order_in  :  ['0P', '0N', '1P']
+plls->D->value :
+ -  order_in  :  ['0P', '0N']
+ +  order_in  :  ['0P', '0N', '1P']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile50.py vs Profile51.py
+inputs->1N :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->1N->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->1N->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->1N->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  6
+inputs->1N->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  6
+inputs->1N->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  15
+inputs->1N->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  15
+inputs->1N->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->1N->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->1N->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->1N->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  300
+inputs->1N->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  1500
+inputs->1N->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->1N->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  128
+inputs->1N->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  130
+inputs->1N->value->freq :
+ -  parsed  :  None
+ +  parsed  :  50000000
+inputs->1N->value->freq :
+ -  value  :  
+ +  value  :  50 MHz
+inputs->1N->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->1N->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->1N->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->1N->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->1N->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  4
+inputs->1N->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  4 s
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P']
+ +  order_in  :  ['0P', '0N', '1P', '1N']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P']
+ +  order_in  :  ['0P', '0N', '1P', '1N']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P']
+ +  order_in  :  ['0P', '0N', '1P', '1N']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P']
+ +  order_in  :  ['0P', '0N', '1P', '1N']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile51.py vs Profile52.py
+inputs->2P :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->2P->value :
+ -  clock_couple  :  dc
+ +  clock_couple  :  ac
+inputs->2P->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->2P->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->2P->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  4
+inputs->2P->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  4
+inputs->2P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  9
+inputs->2P->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  9
+inputs->2P->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->2P->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->2P->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->2P->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  800
+inputs->2P->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  1400
+inputs->2P->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->2P->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  4
+inputs->2P->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  80
+inputs->2P->value->freq :
+ -  parsed  :  None
+ +  parsed  :  50000000
+inputs->2P->value->freq :
+ -  value  :  
+ +  value  :  50 MHz
+inputs->2P->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->2P->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->2P->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->2P->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->2P->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  1/500
+inputs->2P->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  2 ms
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N']
+ +  order_in  :  ['0P', '0N', '1P', '2P']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N']
+ +  order_in  :  ['0P', '0N', '1P', '2P']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N']
+ +  order_in  :  ['0P', '0N', '1P', '2P']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N']
+ +  order_in  :  ['0P', '0N', '1P', '2P']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile52.py vs Profile53.py
+inputs->2N :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->2N->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->2N->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->2N->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  8
+inputs->2N->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  8
+inputs->2N->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  14
+inputs->2N->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  14
+inputs->2N->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->2N->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->2N->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->2N->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  1200
+inputs->2N->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->2N->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  12
+inputs->2N->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  60
+inputs->2N->value->freq :
+ -  parsed  :  None
+ +  parsed  :  100000000
+inputs->2N->value->freq :
+ -  value  :  
+ +  value  :  100 MHz
+inputs->2N->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->2N->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->2N->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->2N->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->2N->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  64
+inputs->2N->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  64 s
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile53.py vs Profile54.py
+inputs->3P :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->3P->value :
+ -  clock_couple  :  dc
+ +  clock_couple  :  ac
+inputs->3P->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->3P->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->3P->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  4
+inputs->3P->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  4
+inputs->3P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  9
+inputs->3P->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  9
+inputs->3P->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->3P->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->3P->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->3P->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  300
+inputs->3P->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  1200
+inputs->3P->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->3P->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  6
+inputs->3P->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  70
+inputs->3P->value->freq :
+ -  parsed  :  None
+ +  parsed  :  150000000
+inputs->3P->value->freq :
+ -  value  :  
+ +  value  :  150 MHz
+inputs->3P->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->3P->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->3P->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->3P->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->3P->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  32
+inputs->3P->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  32 s
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile54.py vs Profile55.py
+inputs->3N :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->3N->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->3N->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->3N->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  7
+inputs->3N->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  7
+inputs->3N->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  15
+inputs->3N->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  15
+inputs->3N->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->3N->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->3N->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->3N->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  300
+inputs->3N->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  900
+inputs->3N->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->3N->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  70
+inputs->3N->value->freq :
+ -  parsed  :  None
+ +  parsed  :  50000000
+inputs->3N->value->freq :
+ -  value  :  
+ +  value  :  50MHz
+inputs->3N->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->3N->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->3N->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->3N->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->3N->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  64
+inputs->3N->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  64 s
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile55.py vs Profile56.py
+inputs->4P :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->4P->value :
+ -  clock_couple  :  dc
+ +  clock_couple  :  ac
+inputs->4P->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->4P->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->4P->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  11
+inputs->4P->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  11
+inputs->4P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  12
+inputs->4P->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  12
+inputs->4P->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->4P->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->4P->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->4P->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  600
+inputs->4P->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  1300
+inputs->4P->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->4P->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  12
+inputs->4P->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  26
+inputs->4P->value->freq :
+ -  parsed  :  None
+ +  parsed  :  200000000
+inputs->4P->value->freq :
+ -  value  :  
+ +  value  :  200 MHz
+inputs->4P->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->4P->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->4P->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->4P->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->4P->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  1
+inputs->4P->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  1 s
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile56.py vs Profile57.py
+inputs->4N :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->4N->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->4N->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->4N->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  1
+inputs->4N->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  1
+inputs->4N->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  8
+inputs->4N->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  8
+inputs->4N->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->4N->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->4N->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->4N->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  1300
+inputs->4N->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->4N->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  12
+inputs->4N->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  38
+inputs->4N->value->freq :
+ -  parsed  :  None
+ +  parsed  :  100000000
+inputs->4N->value->freq :
+ -  value  :  
+ +  value  :  100MHz
+inputs->4N->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->4N->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->4N->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->4N->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->4N->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  32/125
+inputs->4N->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  256 ms
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile57.py vs Profile58.py
+inputs->OCXO :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->OCXO->value :
+ -  clock_couple  :  dc
+ +  clock_couple  :  ac
+inputs->OCXO->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+inputs->OCXO->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+inputs->OCXO->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  8
+inputs->OCXO->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  8
+inputs->OCXO->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  13
+inputs->OCXO->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  13
+inputs->OCXO->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->OCXO->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->OCXO->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->OCXO->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  100
+inputs->OCXO->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  200
+inputs->OCXO->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->OCXO->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  10
+inputs->OCXO->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  56
+inputs->OCXO->value->freq :
+ -  parsed  :  None
+ +  parsed  :  50000000
+inputs->OCXO->value->freq :
+ -  value  :  
+ +  value  :  50MHz
+inputs->OCXO->value->plls :
+ -  A  :  False
+ +  A  :  True
+inputs->OCXO->value->plls :
+ -  B  :  False
+ +  B  :  True
+inputs->OCXO->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->OCXO->value->plls :
+ -  D  :  False
+ +  D  :  True
+inputs->OCXO->value->valid_timer :
+ -  parsed  :  16/125
+ +  parsed  :  64
+inputs->OCXO->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  64 s
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile58.py vs Profile59.py
+inputs->INTSYNC :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->INTSYNC->value->plls :
+ -  A  :  False
+ +  A  :  True
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', 'INTSYNC']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile59.py vs Profile60.py
+inputs->INTSYNC->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  12
+inputs->INTSYNC->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  12
+inputs->INTSYNC->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  13
+inputs->INTSYNC->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  13
+inputs->INTSYNC->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+inputs->INTSYNC->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+inputs->INTSYNC->value->drift_coarse :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->INTSYNC->value->drift_coarse->value :
+ -  clr  :  400
+ +  clr  :  1200
+inputs->INTSYNC->value->drift_coarse->value :
+ -  set  :  500
+ +  set  :  1600
+inputs->INTSYNC->value->drift_fine :
+ -  enabled  :  False
+ +  enabled  :  True
+inputs->INTSYNC->value->drift_fine->value :
+ -  clr  :  8
+ +  clr  :  88
+inputs->INTSYNC->value->drift_fine->value :
+ -  set  :  10
+ +  set  :  110
+inputs->INTSYNC->value->valid_timer :
+ -  value  :  128 ms
+ +  value  :  1 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile60.py vs Profile61.py
+inputs->INTSYNC->value->plls :
+ -  C  :  False
+ +  C  :  True
+inputs->INTSYNC->value->plls :
+ -  D  :  False
+ +  D  :  True
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', 'INTSYNC']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', 'INTSYNC']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile61.py vs Profile62.py
+inputs->INTSYNC :
+ -  enabled  :  True
+ +  enabled  :  False
+outputs->value->11->value :
+ -  vddo  :  3.3V
+ +  vddo  :  1.8V
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', 'INTSYNC']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', 'INTSYNC']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '1N', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', 'INTSYNC']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile62.py vs Profile63.py
+outputs->value->11->value :
+ -  vddo  :  1.8V
+ +  vddo  :  2.5V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile63.py vs Profile64.py
+outputs->value->11->value :
+ -  vddo  :  2.5V
+ +  vddo  :  3.3V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile64.py vs Profile65.py
+outputs->value->11->value->sys_ref :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->A->value->free_running->value->mode->o:phfl :
+ -  state  :  
+ +  state  :  sys_ref
+plls->A->value->free_running->value->mode :
+ -  value  :  
+ +  value  :  sys_ref
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile65.py vs Profile66.py
+outputs->value->11->value->sys_ref->value :
+ -  continuous  :  continuous
+ +  continuous  :  pulser
+outputs->value->11->value->sys_ref->value->pulser :
+ -  state  :  continuous
+ +  state  :  pulser
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  parsed  :  None
+ +  parsed  :  1
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  value  :  
+ +  value  :  1
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile66.py vs Profile67.py
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  parsed  :  1
+ +  parsed  :  255
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  value  :  1
+ +  value  :  255
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile67.py vs Profile68.py
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  parsed  :  255
+ +  parsed  :  150
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  value  :  255
+ +  value  :  150
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile68.py vs Profile69.py
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  parsed  :  150
+ +  parsed  :  34
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  value  :  150
+ +  value  :  34
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile69.py vs Profile70.py
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  parsed  :  34
+ +  parsed  :  221
+outputs->value->11->value->sys_ref->value->pulser->value->count :
+ -  value  :  34
+ +  value  :  221
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile70.py vs Profile71.py
+outputs->value->11->value->delay :
+ -  parsed  :  0
+ +  parsed  :  1
+outputs->value->11->value->delay :
+ -  value  :  0 s
+ +  value  :  1 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile71.py vs Profile72.py
+outputs->value->11->value->delay :
+ -  parsed  :  1
+ +  parsed  :  1/10
+outputs->value->11->value->delay :
+ -  value  :  1 s
+ +  value  :  0.1 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile72.py vs Profile73.py
+outputs->value->11->value->delay :
+ -  parsed  :  1/10
+ +  parsed  :  9/10
+outputs->value->11->value->delay :
+ -  value  :  0.1 s
+ +  value  :  0.9 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile73.py vs Profile74.py
+outputs->value->11 :
+ -  valid  :  True
+ +  valid  :  False
+outputs->value->11->value->delay :
+ -  parsed  :  9/10
+ +  parsed  :  11/10
+outputs->value->11->value->delay :
+ -  valid  :  True
+ +  valid  :  False
+outputs->value->11->value->delay :
+ -  value  :  0.9 s
+ +  value  :  1.1 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile74.py vs Profile75.py
+outputs->value->11 :
+ -  valid  :  False
+ +  valid  :  True
+outputs->value->11->value->delay :
+ -  parsed  :  11/10
+ +  parsed  :  1/2
+outputs->value->11->value->delay :
+ -  valid  :  False
+ +  valid  :  True
+outputs->value->11->value->delay :
+ -  value  :  1.1 s
+ +  value  :  0.5 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile75.py vs Profile76.py
+outputs->value->11->value :
+ -  syncb  :  False
+ +  syncb  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile76.py vs Profile77.py
+outputs->value->11->value->sys_ref :
+ -  enabled  :  True
+ +  enabled  :  False
+outputs->value->11->value->sys_ref->value :
+ -  continuous  :  pulser
+ +  continuous  :  continuous
+outputs->value->11->value->sys_ref->value->pulser :
+ -  state  :  pulser
+ +  state  :  continuous
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile77.py vs Profile78.py
+plls->A->value->free_running->value->mode->o:phfl :
+ -  state  :  sys_ref
+ +  state  :  syncb
+plls->A->value->free_running->value->mode :
+ -  value  :  sys_ref
+ +  value  :  syncb
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile78.py vs Profile79.py
+outputs->value->11->value :
+ -  phfl  :  False
+ +  phfl  :  True
+outputs->value->11->value :
+ -  syncb  :  True
+ +  syncb  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile79.py vs Profile80.py
+outputs->value->11->value :
+ -  phfl  :  True
+ +  phfl  :  False
+plls->A->value->free_running->value->mode->o:phfl :
+ -  state  :  syncb
+ +  state  :  
+plls->A->value->free_running->value->mode :
+ -  value  :  syncb
+ +  value  :  
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile80.py vs Profile81.py
+plls->A->value->free_running->value->zdm :
+ -  state  :  
+ +  state  :  internal
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile81.py vs Profile82.py
+inputs->4N->value->clock_loss->value->edge_clear :
+ -  parsed  :  1
+ +  parsed  :  3
+inputs->4N->value->clock_loss->value->edge_clear :
+ -  value  :  1
+ +  value  :  3
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile82.py vs Profile83.py
+outputs->value->11->value->m_de->value :
+ -  submode  :  LVDS
+ +  submode  :  LVPECL
+outputs->value->11->value->m_de->value->swing :
+ -  parsed  :  1/10
+ +  parsed  :  1/2
+outputs->value->11->value->m_de->value->swing :
+ -  value  :  0.1 V
+ +  value  :  0.5 V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile83.py vs Profile84.py
+outputs->value->11->value->m_de->value :
+ -  submode  :  LVPECL
+ +  submode  :  LVDS
+outputs->value->11->value->m_de->value->swing :
+ -  parsed  :  1/2
+ +  parsed  :  3/10
+outputs->value->11->value->m_de->value->swing :
+ -  value  :  0.5 V
+ +  value  :  0.3 V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile84.py vs Profile85.py
+outputs->value->11->value->m_de->value :
+ -  submode  :  LVDS
+ +  submode  :  CML
+outputs->value->11->value->m_de->value->swing :
+ -  parsed  :  3/10
+ +  parsed  :  1/4
+outputs->value->11->value->m_de->value->swing :
+ -  value  :  0.3 V
+ +  value  :  0.25 V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile85.py vs Profile86.py
+outputs->value->11->value->m_de->value :
+ -  submode  :  CML
+ +  submode  :  HCSL
+outputs->value->11->value->m_de->value->swing :
+ -  parsed  :  1/4
+ +  parsed  :  17/25
+outputs->value->11->value->m_de->value->swing :
+ -  value  :  0.25 V
+ +  value  :  0.68 V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile86.py vs Profile87.py
+outputs->value->11->value->m_de->value :
+ -  submode  :  HCSL
+ +  submode  :  LVPECL2
+outputs->value->11->value->m_de->value->swing :
+ -  parsed  :  17/25
+ +  parsed  :  19/25
+outputs->value->11->value->m_de->value->swing :
+ -  value  :  0.68 V
+ +  value  :  0.76 V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile87.py vs Profile88.py
+outputs->value->11->value->m_de->value :
+ -  it  :  False
+ +  it  :  True
+outputs->value->11->value->m_de->value :
+ -  submode  :  LVPECL2
+ +  submode  :  LVDS
+outputs->value->11->value->m_de->value->swing :
+ -  parsed  :  19/25
+ +  parsed  :  1/2
+outputs->value->11->value->m_de->value->swing :
+ -  value  :  0.76 V
+ +  value  :  0.5 V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile88.py vs Profile89.py
+outputs->value->11->value->freq :
+ -  parsed  :  200000000
+ +  parsed  :  1/2
+outputs->value->11->value->freq :
+ -  value  :  200MHz
+ +  value  :  0.5Hz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile89.py vs Profile90.py
+outputs->value->11->value->freq :
+ -  parsed  :  1/2
+ +  parsed  :  2950000000
+outputs->value->11->value->freq :
+ -  value  :  0.5Hz
+ +  value  :  2.95 GHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile90.py vs Profile91.py
+outputs->value->10 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->10->value->delay :
+ -  parsed  :  0
+ +  parsed  :  1
+outputs->value->10->value->delay :
+ -  value  :  0 s
+ +  value  :  1 s
+outputs->value->10->value->freq :
+ -  parsed  :  None
+ +  parsed  :  150000000
+outputs->value->10->value->freq :
+ -  value  :  
+ +  value  :  150MHz
+outputs->value->10->value->m_de :
+ -  state  :  
+ +  state  :  se
+outputs->value->10->value->m_se :
+ -  state  :  
+ +  state  :  se
+outputs->value->10->value->m_se->value->on :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->10->value->m_se->value->op :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->10->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->10->value->pll :
+ -  value  :  
+ +  value  :  B
+outputs->value->10->value->sys_ref :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->free_running->value->mode->o:phfl :
+ -  state  :  
+ +  state  :  sys_ref
+plls->B->value->free_running->value->mode :
+ -  value  :  
+ +  value  :  sys_ref
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile91.py vs Profile92.py
+outputs->value->9 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->9->value->delay :
+ -  parsed  :  0
+ +  parsed  :  1/10
+outputs->value->9->value->delay :
+ -  value  :  0 s
+ +  value  :  0.1 s
+outputs->value->9->value->freq :
+ -  parsed  :  None
+ +  parsed  :  500000000
+outputs->value->9->value->freq :
+ -  value  :  
+ +  value  :  0.5GHz
+outputs->value->9->value->m_de :
+ -  state  :  
+ +  state  :  de
+outputs->value->9->value->m_de->value :
+ -  submode  :  
+ +  submode  :  LVPECL
+outputs->value->9->value->m_de->value->swing :
+ -  parsed  :  None
+ +  parsed  :  31/50
+outputs->value->9->value->m_de->value->swing :
+ -  value  :  
+ +  value  :  0.62 V
+outputs->value->9->value->m_se :
+ -  state  :  
+ +  state  :  de
+outputs->value->9->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->9->value->pll :
+ -  value  :  
+ +  value  :  C
+outputs->value->9->value :
+ -  syncb  :  False
+ +  syncb  :  True
+plls->C->value->free_running->value->mode->o:phfl :
+ -  state  :  
+ +  state  :  syncb
+plls->C->value->free_running->value->mode :
+ -  value  :  
+ +  value  :  syncb
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile92.py vs Profile93.py
+outputs->value->8 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->8->value->freq :
+ -  parsed  :  None
+ +  parsed  :  240000000
+outputs->value->8->value->freq :
+ -  value  :  
+ +  value  :  240MHz
+outputs->value->8->value->m_de :
+ -  state  :  
+ +  state  :  se
+outputs->value->8->value->m_se :
+ -  state  :  
+ +  state  :  se
+outputs->value->8->value->m_se->value->on :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->8->value->m_se->value->on :
+ -  value  :  clkn
+ +  value  :  clkp
+outputs->value->8->value->m_se->value->op :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->8->value->m_se->value->op :
+ -  value  :  clkp
+ +  value  :  clkn
+outputs->value->8->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->8->value->pll :
+ -  value  :  
+ +  value  :  D
+outputs->value->8->value->sys_ref :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->8->value->sys_ref->value :
+ -  continuous  :  continuous
+ +  continuous  :  pulser
+outputs->value->8->value->sys_ref->value->pulser :
+ -  state  :  continuous
+ +  state  :  pulser
+outputs->value->8->value->sys_ref->value->pulser->value->count :
+ -  parsed  :  None
+ +  parsed  :  50
+outputs->value->8->value->sys_ref->value->pulser->value->count :
+ -  value  :  
+ +  value  :  50
+plls->D->value->free_running->value->mode->o:phfl :
+ -  state  :  
+ +  state  :  sys_ref
+plls->D->value->free_running->value->mode :
+ -  value  :  
+ +  value  :  sys_ref
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile93.py vs Profile94.py
+outputs->value->11->value->freq :
+ -  parsed  :  2950000000
+ +  parsed  :  500000000
+outputs->value->11->value->freq :
+ -  value  :  2.95 GHz
+ +  value  :  500MHz
+outputs->value->7 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->7->value->freq :
+ -  parsed  :  None
+ +  parsed  :  500000000
+outputs->value->7->value->freq :
+ -  value  :  
+ +  value  :  500MHz
+outputs->value->7->value->m_de :
+ -  state  :  
+ +  state  :  de
+outputs->value->7->value->m_de->value :
+ -  submode  :  
+ +  submode  :  LVPECL
+outputs->value->7->value->m_de->value->swing :
+ -  parsed  :  None
+ +  parsed  :  17/25
+outputs->value->7->value->m_de->value->swing :
+ -  value  :  
+ +  value  :  0.68 V
+outputs->value->7->value->m_se :
+ -  state  :  
+ +  state  :  de
+outputs->value->7->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->7->value->pll :
+ -  value  :  
+ +  value  :  A
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile94.py vs Profile95.py
+outputs->value->6 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->6->value->delay :
+ -  parsed  :  0
+ +  parsed  :  3/5
+outputs->value->6->value->delay :
+ -  value  :  0 s
+ +  value  :  0.6 s
+outputs->value->6->value->freq :
+ -  parsed  :  None
+ +  parsed  :  250000000
+outputs->value->6->value->freq :
+ -  value  :  
+ +  value  :  250MHz
+outputs->value->6->value->m_de :
+ -  state  :  
+ +  state  :  se
+outputs->value->6->value->m_se :
+ -  state  :  
+ +  state  :  se
+outputs->value->6->value->m_se->value->on :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->6->value->m_se->value->op :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->6->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->6->value->pll :
+ -  value  :  
+ +  value  :  B
+outputs->value->6->value->sys_ref :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->6->value :
+ -  vddo  :  3.3V
+ +  vddo  :  2.5V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile95.py vs Profile96.py
+outputs->value->5 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->5->value->freq :
+ -  parsed  :  None
+ +  parsed  :  500000000
+outputs->value->5->value->freq :
+ -  value  :  
+ +  value  :  0.5 GHz
+outputs->value->5->value->m_de :
+ -  state  :  
+ +  state  :  de
+outputs->value->5->value->m_de->value :
+ -  submode  :  
+ +  submode  :  HCSL
+outputs->value->5->value->m_de->value->swing :
+ -  parsed  :  None
+ +  parsed  :  17/25
+outputs->value->5->value->m_de->value->swing :
+ -  value  :  
+ +  value  :  0.68 V
+outputs->value->5->value->m_se :
+ -  state  :  
+ +  state  :  de
+outputs->value->5->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->5->value->pll :
+ -  value  :  
+ +  value  :  C
+outputs->value->5->value :
+ -  syncb  :  False
+ +  syncb  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile96.py vs Profile97.py
+outputs->value->4 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->4->value->freq :
+ -  parsed  :  None
+ +  parsed  :  120000000
+outputs->value->4->value->freq :
+ -  value  :  
+ +  value  :  120MHz
+outputs->value->4->value->m_de :
+ -  state  :  
+ +  state  :  se
+outputs->value->4->value->m_se :
+ -  state  :  
+ +  state  :  se
+outputs->value->4->value->m_se->value->on :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->4->value->m_se->value->on :
+ -  value  :  clkn
+ +  value  :  clkp
+outputs->value->4->value->m_se->value->op :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->4->value->m_se->value->op :
+ -  value  :  clkp
+ +  value  :  clkn
+outputs->value->4->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->4->value->pll :
+ -  value  :  
+ +  value  :  D
+outputs->value->4->value->sys_ref :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->4->value->sys_ref->value :
+ -  continuous  :  continuous
+ +  continuous  :  pulser
+outputs->value->4->value->sys_ref->value->pulser :
+ -  state  :  continuous
+ +  state  :  pulser
+outputs->value->4->value->sys_ref->value->pulser->value->count :
+ -  parsed  :  None
+ +  parsed  :  26
+outputs->value->4->value->sys_ref->value->pulser->value->count :
+ -  value  :  
+ +  value  :  26
+outputs->value->4->value :
+ -  vddo  :  3.3V
+ +  vddo  :  1.8V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile97.py vs Profile98.py
+outputs->value->3 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->3->value->delay :
+ -  parsed  :  0
+ +  parsed  :  1/5
+outputs->value->3->value->delay :
+ -  value  :  0 s
+ +  value  :  0.2 s
+outputs->value->3->value->freq :
+ -  parsed  :  None
+ +  parsed  :  500000000
+outputs->value->3->value->freq :
+ -  value  :  
+ +  value  :  500MHz
+outputs->value->3->value->m_de :
+ -  state  :  
+ +  state  :  de
+outputs->value->3->value->m_de->value :
+ -  submode  :  
+ +  submode  :  CML
+outputs->value->3->value->m_de->value->swing :
+ -  parsed  :  None
+ +  parsed  :  1/5
+outputs->value->3->value->m_de->value->swing :
+ -  value  :  
+ +  value  :  0.2 V
+outputs->value->3->value->m_se :
+ -  state  :  
+ +  state  :  de
+outputs->value->3->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->3->value->pll :
+ -  value  :  
+ +  value  :  A
+outputs->value->3->value :
+ -  vddo  :  3.3V
+ +  vddo  :  2.5V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile98.py vs Profile99.py
+outputs->value->2 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->2->value->delay :
+ -  parsed  :  0
+ +  parsed  :  9/10
+outputs->value->2->value->delay :
+ -  value  :  0 s
+ +  value  :  0.9 s
+outputs->value->2->value->freq :
+ -  parsed  :  None
+ +  parsed  :  100000000
+outputs->value->2->value->freq :
+ -  value  :  
+ +  value  :  100MHz
+outputs->value->2->value->m_de :
+ -  state  :  
+ +  state  :  se
+outputs->value->2->value->m_se :
+ -  state  :  
+ +  state  :  se
+outputs->value->2->value->m_se->value->on :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->2->value->m_se->value->on :
+ -  value  :  clkn
+ +  value  :  clkp
+outputs->value->2->value->m_se->value->op :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->2->value->m_se->value->op :
+ -  value  :  clkp
+ +  value  :  clkn
+outputs->value->2->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->2->value->pll :
+ -  value  :  
+ +  value  :  B
+outputs->value->2->value->sys_ref :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->2->value->sys_ref->value :
+ -  continuous  :  continuous
+ +  continuous  :  pulser
+outputs->value->2->value->sys_ref->value->pulser :
+ -  state  :  continuous
+ +  state  :  pulser
+outputs->value->2->value->sys_ref->value->pulser->value->count :
+ -  parsed  :  None
+ +  parsed  :  200
+outputs->value->2->value->sys_ref->value->pulser->value->count :
+ -  value  :  
+ +  value  :  200
+outputs->value->2->value :
+ -  vddo  :  3.3V
+ +  vddo  :  2.5V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile99.py vs Profile100.py
+outputs->value->1 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->1->value->freq :
+ -  parsed  :  None
+ +  parsed  :  100000000
+outputs->value->1->value->freq :
+ -  value  :  
+ +  value  :  0.1GHz
+outputs->value->1->value->m_de :
+ -  state  :  
+ +  state  :  de
+outputs->value->1->value->m_de->value :
+ -  submode  :  
+ +  submode  :  HCSL
+outputs->value->1->value->m_de->value->swing :
+ -  parsed  :  None
+ +  parsed  :  3/5
+outputs->value->1->value->m_de->value->swing :
+ -  value  :  
+ +  value  :  0.6 V
+outputs->value->1->value->m_se :
+ -  state  :  
+ +  state  :  de
+outputs->value->1->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->1->value->pll :
+ -  value  :  
+ +  value  :  C
+outputs->value->1->value :
+ -  syncb  :  False
+ +  syncb  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile100.py vs Profile101.py
+outputs->value->0 :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->0->value->freq :
+ -  parsed  :  None
+ +  parsed  :  240000000
+outputs->value->0->value->freq :
+ -  value  :  
+ +  value  :  240MHz
+outputs->value->0->value->m_de :
+ -  state  :  
+ +  state  :  se
+outputs->value->0->value->m_se :
+ -  state  :  
+ +  state  :  se
+outputs->value->0->value->m_se->value->on :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->0->value->m_se->value->on :
+ -  value  :  clkn
+ +  value  :  clkp
+outputs->value->0->value->m_se->value->op :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->0->value->m_se->value->op :
+ -  value  :  clkp
+ +  value  :  clkn
+outputs->value->0->value->pll :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->0->value->pll :
+ -  value  :  
+ +  value  :  D
+outputs->value->0->value->sys_ref :
+ -  enabled  :  False
+ +  enabled  :  True
+outputs->value->0->value->sys_ref->value :
+ -  continuous  :  continuous
+ +  continuous  :  pulser
+outputs->value->0->value->sys_ref->value->pulser :
+ -  state  :  continuous
+ +  state  :  pulser
+outputs->value->0->value->sys_ref->value->pulser->value->count :
+ -  parsed  :  None
+ +  parsed  :  23
+outputs->value->0->value->sys_ref->value->pulser->value->count :
+ -  value  :  
+ +  value  :  23
+outputs->value->0->value :
+ -  vddo  :  3.3V
+ +  vddo  :  2.5V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile101.py vs Profile102.py
+plls->A->value->free_running->value->sw_oc->value->fast :
+ -  value  :  100
+ +  value  :  0.09mHz
+plls->A->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', '1N']
+plls->B->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', '1N']
+plls->C->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', '1N']
+plls->D->value :
+ -  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO']
+ +  order_in  :  ['0P', '0N', '1P', '2P', '2N', '3P', '3N', '4P', '4N', 'OCXO', '1N']
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile102.py vs Profile103.py
+plls->A->value->free_running->value->sw_oc->value->normal :
+ -  value  :  100
+ +  value  :  4kHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile103.py vs Profile104.py
+plls->A->value->free_running->value->sw_oc->value->fast :
+ -  value  :  0.09mHz
+ +  value  :  100
+plls->A->value->free_running->value->sw_oc->value->normal :
+ -  value  :  4kHz
+ +  value  :  100
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile104.py vs Profile105.py
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile105.py vs Profile106.py
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile106.py vs Profile107.py
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile107.py vs Profile108.py
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile108.py vs Profile109.py
+plls->A->value->free_running->value->sw_ext :
+ -  state  :  oc
+ +  state  :  ext
+plls->A->value->free_running->value->sw_oc :
+ -  state  :  oc
+ +  state  :  ext
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile109.py vs Profile110.py
+plls->A->value->free_running->value->sw_ext->value->decimation :
+ -  parsed  :  1
+ +  parsed  :  16
+plls->A->value->free_running->value->sw_ext->value->decimation :
+ -  value  :  1
+ +  value  :  16
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile110.py vs Profile111.py
+plls->A->value->free_running->value->sw_ext->value->decimation :
+ -  parsed  :  16
+ +  parsed  :  7
+plls->A->value->free_running->value->sw_ext->value->decimation :
+ -  value  :  16
+ +  value  :  7
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile111.py vs Profile112.py
+plls->A->value->free_running->value->clock_switch->hitless :
+ -  ph_bout  :  propagation
+ +  ph_bout  :  buildout
+plls->A->value->free_running->value->clock_switch->hitless->ph_prop :
+ -  state  :  propagation
+ +  state  :  buildout
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile112.py vs Profile113.py
+plls->A->value->free_running->value->clock_switch->hitless :
+ -  ph_bout  :  buildout
+ +  ph_bout  :  propagation
+plls->A->value->free_running->value->clock_switch->hitless->ph_prop :
+ -  state  :  buildout
+ +  state  :  propagation
+plls->A->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  value  :  Bandwidth
+ +  value  :  32 us/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile113.py vs Profile114.py
+plls->A->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  value  :  32 us/s
+ +  value  :  0.25 us/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile114.py vs Profile115.py
+plls->A->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  value  :  0.25 us/s
+ +  value  :  4 ns/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile115.py vs Profile116.py
+plls->A->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  value  :  4 ns/s
+ +  value  :  1 ns/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile116.py vs Profile117.py
+plls->A->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  value  :  1 ns/s
+ +  value  :  0.5 us/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile117.py vs Profile118.py
+plls->A->value->free_running->value->clock_switch->frequency_ramp :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->A->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  value  :  0.5 us/s
+ +  value  :  Bandwidth
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile118.py vs Profile119.py
+plls->A->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  parsed  :  1/25
+ +  parsed  :  1/10000000
+plls->A->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  value  :  40000 ppm/s
+ +  value  :  0.2 ppm/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile119.py vs Profile120.py
+plls->A->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  parsed  :  1/10000000
+ +  parsed  :  1/50000
+plls->A->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  value  :  0.2 ppm/s
+ +  value  :  20 ppm/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile120.py vs Profile121.py
+plls->A->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  parsed  :  1/50000
+ +  parsed  :  1/50
+plls->A->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  value  :  20 ppm/s
+ +  value  :  20000 ppm/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile121.py vs Profile122.py
+plls->A->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  parsed  :  1/50
+ +  parsed  :  1/5000
+plls->A->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  value  :  20000 ppm/s
+ +  value  :  200 ppm/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile122.py vs Profile123.py
+plls->A->value->free_running->value->freq_lock_loss->value->delay :
+ -  parsed  :  1/250
+ +  parsed  :  16
+plls->A->value->free_running->value->freq_lock_loss->value->delay :
+ -  value  :  4 ms
+ +  value  :  16 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile123.py vs Profile124.py
+plls->A->value->free_running->value->freq_lock_loss->value->delay :
+ -  parsed  :  16
+ +  parsed  :  131/500
+plls->A->value->free_running->value->freq_lock_loss->value->delay :
+ -  value  :  16 s
+ +  value  :  262 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile124.py vs Profile125.py
+plls->A->value->free_running->value->freq_lock_loss->value->delay :
+ -  parsed  :  131/500
+ +  parsed  :  1/250
+plls->A->value->free_running->value->freq_lock_loss->value->delay :
+ -  value  :  262 ms
+ +  value  :  4 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile125.py vs Profile126.py
+plls->A->value->free_running->value->freq_lock_loss->value->delay :
+ -  parsed  :  1/250
+ +  parsed  :  1/1000
+plls->A->value->free_running->value->freq_lock_loss->value->delay :
+ -  value  :  4 ms
+ +  value  :  1 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile126.py vs Profile127.py
+plls->A->value->free_running->value->freq_lock_loss->value :
+ -  timer  :  True
+ +  timer  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile127.py vs Profile128.py
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  parsed  :  1/250000
+ +  parsed  :  1/25000
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  value  :  4 ppm
+ +  value  :  40 ppm
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile128.py vs Profile129.py
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  parsed  :  1/25000
+ +  parsed  :  1/2500
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  value  :  40 ppm
+ +  value  :  400 ppm
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile129.py vs Profile130.py
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  parsed  :  1/2500
+ +  parsed  :  1/250
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  value  :  400 ppm
+ +  value  :  4000 ppm
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile130.py vs Profile131.py
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  parsed  :  1/500000
+ +  parsed  :  1/10000000000
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  value  :  2 ppm
+ +  value  :  0.1 ppb
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile131.py vs Profile132.py
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  parsed  :  1/10000000000
+ +  parsed  :  1/250000
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  value  :  0.1 ppb
+ +  value  :  4 ppm
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile132.py vs Profile133.py
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  parsed  :  1/250000
+ +  parsed  :  1/500
+plls->A->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  value  :  4 ppm
+ +  value  :  2000 ppm
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile133.py vs Profile134.py
+plls->A->value->free_running->value->phase_lock_loss->value->delay :
+ -  parsed  :  1/250
+ +  parsed  :  4
+plls->A->value->free_running->value->phase_lock_loss->value->delay :
+ -  value  :  4 ms
+ +  value  :  4 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile134.py vs Profile135.py
+plls->A->value->free_running->value->phase_lock_loss->value->delay :
+ -  parsed  :  4
+ +  parsed  :  24
+plls->A->value->free_running->value->phase_lock_loss->value->delay :
+ -  value  :  4 s
+ +  value  :  24 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile135.py vs Profile136.py
+plls->A->value->free_running->value->phase_lock_loss->value->delay :
+ -  parsed  :  24
+ +  parsed  :  50
+plls->A->value->free_running->value->phase_lock_loss->value->delay :
+ -  value  :  24 s
+ +  value  :  50 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile136.py vs Profile137.py
+plls->A->value->free_running->value->phase_lock_loss->value->delay :
+ -  parsed  :  50
+ +  parsed  :  2
+plls->A->value->free_running->value->phase_lock_loss->value->delay :
+ -  value  :  50 s
+ +  value  :  2 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile137.py vs Profile138.py
+plls->A->value->free_running->value->phase_lock_loss->value :
+ -  timer  :  True
+ +  timer  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile138.py vs Profile139.py
+plls->A->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  parsed  :  1/500000000
+ +  parsed  :  67/1000000000
+plls->A->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  value  :  2 ns
+ +  value  :  67 ns
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile139.py vs Profile140.py
+plls->A->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  parsed  :  67/1000000000
+ +  parsed  :  9/1000000000
+plls->A->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  value  :  67 ns
+ +  value  :  9 ns
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile140.py vs Profile141.py
+plls->A->value->free_running->value->holdover->delay :
+ -  parsed  :  547/1000
+ +  parsed  :  35
+plls->A->value->free_running->value->holdover->delay :
+ -  value  :  547 ms
+ +  value  :  35 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile141.py vs Profile142.py
+plls->A->value->free_running->value->holdover->delay :
+ -  parsed  :  35
+ +  parsed  :  547/1000
+plls->A->value->free_running->value->holdover->delay :
+ -  value  :  35 s
+ +  value  :  547 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile142.py vs Profile143.py
+plls->A->value->free_running->value->holdover->delay :
+ -  parsed  :  547/1000
+ +  parsed  :  9/1000
+plls->A->value->free_running->value->holdover->delay :
+ -  value  :  547 ms
+ +  value  :  9 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile143.py vs Profile144.py
+plls->A->value->free_running->value->holdover->average :
+ -  parsed  :  547/500
+ +  parsed  :  70
+plls->A->value->free_running->value->holdover->average :
+ -  value  :  1.094 s
+ +  value  :  70 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile144.py vs Profile145.py
+plls->A->value->free_running->value->holdover->average :
+ -  parsed  :  70
+ +  parsed  :  273/1000
+plls->A->value->free_running->value->holdover->average :
+ -  value  :  70 s
+ +  value  :  273 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile145.py vs Profile146.py
+plls->A->value->free_running->value->holdover->average :
+ -  parsed  :  273/1000
+ +  parsed  :  1/250
+plls->A->value->free_running->value->holdover->average :
+ -  value  :  273 ms
+ +  value  :  4 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile146.py vs Profile147.py
+plls->A->value->free_running->value->holdover->average :
+ -  parsed  :  1/250
+ +  parsed  :  35/8
+plls->A->value->free_running->value->holdover->average :
+ -  value  :  4 ms
+ +  value  :  4.375 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile147.py vs Profile148.py
+plls->A->value->free_running->value->holdover->average :
+ -  parsed  :  35/8
+ +  parsed  :  273/1000
+plls->A->value->free_running->value->holdover->average :
+ -  value  :  4.375 s
+ +  value  :  273 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile148.py vs Profile149.py
+plls->A->value->free_running->value->holdover->average :
+ -  parsed  :  273/1000
+ +  parsed  :  1/250
+plls->A->value->free_running->value->holdover->average :
+ -  value  :  273 ms
+ +  value  :  4 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile149.py vs Profile150.py
+plls->A->value->free_running->value :
+ -  dco  :  False
+ +  dco  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile150.py vs Profile151.py
+plls->A->value->free_running->value :
+ -  fast_lock_ho  :  True
+ +  fast_lock_ho  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile151.py vs Profile152.py
+plls->A->value->smartdco->transmitter->tx1 :
+ -  enabled  :  False
+ +  enabled  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile152.py vs Profile153.py
+plls->A->value->smartdco->transmitter->tx2 :
+ -  enabled  :  False
+ +  enabled  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile153.py vs Profile154.py
+plls->A->value->smartdco->receiver->value->sl :
+ -  enabled  :  False
+ +  enabled  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile154.py vs Profile155.py
+plls->A->value->smartdco->receiver->value->sl->value :
+ -  parsed  :  16/15625
+ +  parsed  :  3/25000000000
+plls->A->value->smartdco->receiver->value->sl->value :
+ -  value  :  1024 ppm/s
+ +  value  :  0.12 ppb/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile155.py vs Profile156.py
+plls->A->value->smartdco->receiver->value->sl->value :
+ -  parsed  :  3/25000000000
+ +  parsed  :  1/1000000
+plls->A->value->smartdco->receiver->value->sl->value :
+ -  value  :  0.12 ppb/s
+ +  value  :  1 ppm/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile156.py vs Profile157.py
+plls->A->value->smartdco->receiver->value->rx1->value->pll :
+ -  parsed  :  None
+ +  parsed  :  B
+plls->A->value->smartdco->receiver->value->rx1->value->pll :
+ -  value  :  
+ +  value  :  PLL B
+plls->A->value->smartdco->receiver->value->rx2->value->pll :
+ -  parsed  :  None
+ +  parsed  :  B
+plls->A->value->smartdco->receiver->value->rx2->value->pll :
+ -  value  :  
+ +  value  :  PLL B
+plls->A->value->smartdco->receiver->value->sl->value :
+ -  parsed  :  1/1000000
+ +  parsed  :  2/15625
+plls->A->value->smartdco->receiver->value->sl->value :
+ -  value  :  1 ppm/s
+ +  value  :  128 ppm/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile157.py vs Profile158.py
+plls->A->value->smartdco->receiver->value->rx1 :
+ -  enabled  :  False
+ +  enabled  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile158.py vs Profile159.py
+plls->A->value->smartdco->receiver->value->rx2 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->A->value->smartdco->receiver->value->rx2->value :
+ -  tx  :  tx1
+ +  tx  :  tx2
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile159.py vs Profile160.py
+plls->A->value->smartdco->receiver->value->rx1->value->pll :
+ -  parsed  :  B
+ +  parsed  :  C
+plls->A->value->smartdco->receiver->value->rx1->value->pll :
+ -  value  :  PLL B
+ +  value  :  PLL C
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile160.py vs Profile161.py
+plls->A->value->smartdco->receiver->value->rx1->value->pll :
+ -  parsed  :  C
+ +  parsed  :  D
+plls->A->value->smartdco->receiver->value->rx1->value->pll :
+ -  value  :  PLL C
+ +  value  :  PLL D
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile161.py vs Profile162.py
+plls->A->value->smartdco->receiver->value->rx2->value :
+ -  tx  :  tx2
+ +  tx  :  tx1
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile162.py vs Profile163.py
+plls->A->value->smartdco->receiver->value->rx2->value->pll :
+ -  parsed  :  B
+ +  parsed  :  D
+plls->A->value->smartdco->receiver->value->rx2->value->pll :
+ -  value  :  PLL B
+ +  value  :  PLL D
+plls->A->value->smartdco->receiver->value->rx2->value :
+ -  tx  :  tx1
+ +  tx  :  tx2
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile163.py vs Profile164.py
+plls->A->value->smartdco->receiver->value->rx2->value->pll :
+ -  parsed  :  D
+ +  parsed  :  C
+plls->A->value->smartdco->receiver->value->rx2->value->pll :
+ -  value  :  PLL D
+ +  value  :  PLL C
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile164.py vs Profile165.py
+plls->A->value->smartdco->transmitter->tx1->value :
+ -  ppath  :  False
+ +  ppath  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile165.py vs Profile166.py
+plls->A->value->smartdco->transmitter->tx2->value :
+ -  ppath  :  False
+ +  ppath  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile166.py vs Profile167.py
+plls->A->value->free_running->value->sw_ext :
+ -  state  :  ext
+ +  state  :  oc
+plls->A->value->free_running->value->sw_oc :
+ -  state  :  ext
+ +  state  :  oc
+plls->A->value->ptp :
+ -  enabled  :  False
+ +  enabled  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile167.py vs Profile168.py
+plls->A->value->ptp->value->bw :
+ -  parsed  :  None
+ +  parsed  :  9/100000
+plls->A->value->ptp->value->bw :
+ -  valid  :  False
+ +  valid  :  True
+plls->A->value->ptp->value->bw :
+ -  value  :  
+ +  value  :  0.09mHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile168.py vs Profile169.py
+plls->A->value->ptp->value->phase_ur :
+ -  parsed  :  None
+ +  parsed  :  100000
+plls->A->value->ptp->value->phase_ur :
+ -  valid  :  False
+ +  valid  :  True
+plls->A->value->ptp->value->phase_ur :
+ -  value  :  
+ +  value  :  100kHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile169.py vs Profile170.py
+plls->A->value->ptp->value :
+ -  ipath  :  True
+ +  ipath  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile170.py vs Profile171.py
+plls->A->value->ptp->value :
+ -  ppath  :  True
+ +  ppath  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile171.py vs Profile172.py
+plls->A->value->ptp->value :
+ -  ipath  :  False
+ +  ipath  :  True
+plls->A->value->ptp->value :
+ -  ppath  :  False
+ +  ppath  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile172.py vs Profile173.py
+plls->A->value->ptp->value->phase_sl :
+ -  value  :  Bandwidth
+ +  value  :  128 us/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile173.py vs Profile174.py
+plls->A->value->ptp->value->phase_sl :
+ -  value  :  128 us/s
+ +  value  :  0.125 us/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile174.py vs Profile175.py
+plls->A->value->ptp->value->phase_sl :
+ -  value  :  0.125 us/s
+ +  value  :  7.8 ns/s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile175.py vs Profile176.py
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile176.py vs Profile177.py
+plls->B->value->free_running->value->clock_switch->frequency_ramp :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  parsed  :  1/25
+ +  parsed  :  1/5000
+plls->B->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  value  :  40000 ppm/s
+ +  value  :  200 ppm/s
+plls->B->value->free_running->value->clock_switch->hitless :
+ -  ph_bout  :  propagation
+ +  ph_bout  :  buildout
+plls->B->value->free_running->value->clock_switch->hitless->ph_prop :
+ -  state  :  propagation
+ +  state  :  buildout
+plls->B->value->free_running->value :
+ -  dco  :  False
+ +  dco  :  True
+plls->B->value->free_running->value->freq_lock_loss->value->delay :
+ -  parsed  :  1/250
+ +  parsed  :  1
+plls->B->value->free_running->value->freq_lock_loss->value->delay :
+ -  value  :  4 ms
+ +  value  :  1 s
+plls->B->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  parsed  :  1/250000
+ +  parsed  :  1/500
+plls->B->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  value  :  4 ppm
+ +  value  :  2000 ppm
+plls->B->value->free_running->value->holdover->average :
+ -  parsed  :  547/500
+ +  parsed  :  35/2
+plls->B->value->free_running->value->holdover->average :
+ -  value  :  1.094 s
+ +  value  :  17.5 s
+plls->B->value->free_running->value->holdover->delay :
+ -  parsed  :  547/1000
+ +  parsed  :  9/1000
+plls->B->value->free_running->value->holdover->delay :
+ -  value  :  547 ms
+ +  value  :  9 ms
+plls->B->value->free_running->value->ip_clock :
+ -  revertive  :  True
+ +  revertive  :  False
+plls->B->value->free_running->value->phase_lock_loss->value->delay :
+ -  parsed  :  1/250
+ +  parsed  :  7
+plls->B->value->free_running->value->phase_lock_loss->value->delay :
+ -  value  :  4 ms
+ +  value  :  7 s
+plls->B->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  parsed  :  1/500000000
+ +  parsed  :  1/125000000
+plls->B->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  value  :  2 ns
+ +  value  :  8 ns
+plls->B->value->free_running->value->phase_lock_loss->value :
+ -  timer  :  True
+ +  timer  :  False
+plls->B->value->ptp :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->ptp->value->bw :
+ -  parsed  :  None
+ +  parsed  :  100
+plls->B->value->ptp->value->bw :
+ -  valid  :  False
+ +  valid  :  True
+plls->B->value->ptp->value->bw :
+ -  value  :  
+ +  value  :  0.1kHz
+plls->B->value->ptp->value->phase_sl :
+ -  parsed  :  None
+ +  parsed  :  39/5000000000
+plls->B->value->ptp->value->phase_sl :
+ -  value  :  Bandwidth
+ +  value  :  7.8 ns/s
+plls->B->value->ptp->value->phase_ur :
+ -  parsed  :  None
+ +  parsed  :  50000
+plls->B->value->ptp->value->phase_ur :
+ -  valid  :  False
+ +  valid  :  True
+plls->B->value->ptp->value->phase_ur :
+ -  value  :  
+ +  value  :  50kHz
+plls->B->value->smartdco->receiver->value->rx1 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->smartdco->receiver->value->rx1->value->pll :
+ -  parsed  :  None
+ +  parsed  :  C
+plls->B->value->smartdco->receiver->value->rx1->value->pll :
+ -  value  :  
+ +  value  :  PLL C
+plls->B->value->smartdco->receiver->value->rx2 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->smartdco->receiver->value->rx2->value->pll :
+ -  parsed  :  None
+ +  parsed  :  A
+plls->B->value->smartdco->receiver->value->rx2->value->pll :
+ -  value  :  
+ +  value  :  PLL A
+plls->B->value->smartdco->receiver->value->rx2->value :
+ -  tx  :  tx1
+ +  tx  :  tx2
+plls->B->value->smartdco->receiver->value->sl :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->smartdco->transmitter->tx1 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->smartdco->transmitter->tx1->value :
+ -  ppath  :  False
+ +  ppath  :  True
+plls->B->value->smartdco->transmitter->tx2 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->B->value->smartdco->transmitter->tx2->value :
+ -  ppath  :  False
+ +  ppath  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile177.py vs Profile178.py
+plls->C->value->free_running->value->clock_switch->frequency_ramp :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->C->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  parsed  :  1/25
+ +  parsed  :  1/500000
+plls->C->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  value  :  40000 ppm/s
+ +  value  :  2 ppm/s
+plls->C->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  parsed  :  None
+ +  parsed  :  1/500000000
+plls->C->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  value  :  Bandwidth
+ +  value  :  2 ns/s
+plls->C->value->free_running->value :
+ -  dco  :  False
+ +  dco  :  True
+plls->C->value->free_running->value->freq_lock_loss->value->delay :
+ -  parsed  :  1/250
+ +  parsed  :  4
+plls->C->value->free_running->value->freq_lock_loss->value->delay :
+ -  value  :  4 ms
+ +  value  :  4 s
+plls->C->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  parsed  :  1/500000
+ +  parsed  :  1/5000000
+plls->C->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  value  :  2 ppm
+ +  value  :  0.2 ppm
+plls->C->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  parsed  :  1/250000
+ +  parsed  :  1/500
+plls->C->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  value  :  4 ppm
+ +  value  :  2000 ppm
+plls->C->value->free_running->value->holdover->average :
+ -  parsed  :  547/500
+ +  parsed  :  35/8
+plls->C->value->free_running->value->holdover->average :
+ -  value  :  1.094 s
+ +  value  :  4.375 s
+plls->C->value->free_running->value->holdover->delay :
+ -  parsed  :  547/1000
+ +  parsed  :  35
+plls->C->value->free_running->value->holdover->delay :
+ -  value  :  547 ms
+ +  value  :  35 s
+plls->C->value->free_running->value->ip_clock :
+ -  select  :  Auto
+ +  select  :  Manual
+plls->C->value->free_running->value->phase_lock_loss->value->delay :
+ -  parsed  :  1/250
+ +  parsed  :  7
+plls->C->value->free_running->value->phase_lock_loss->value->delay :
+ -  value  :  4 ms
+ +  value  :  7 s
+plls->C->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  parsed  :  1/500000000
+ +  parsed  :  19/200000000
+plls->C->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  value  :  2 ns
+ +  value  :  95 ns
+plls->C->value->ptp :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->C->value->ptp->value->bw :
+ -  parsed  :  None
+ +  parsed  :  4000
+plls->C->value->ptp->value->bw :
+ -  valid  :  False
+ +  valid  :  True
+plls->C->value->ptp->value->bw :
+ -  value  :  
+ +  value  :  1kHz
+plls->C->value->ptp->value->phase_sl :
+ -  parsed  :  None
+ +  parsed  :  781/50000000000
+plls->C->value->ptp->value->phase_sl :
+ -  value  :  Bandwidth
+ +  value  :  15.62 ns/s
+plls->C->value->ptp->value->phase_ur :
+ -  parsed  :  None
+ +  parsed  :  99000
+plls->C->value->ptp->value->phase_ur :
+ -  valid  :  False
+ +  valid  :  True
+plls->C->value->ptp->value->phase_ur :
+ -  value  :  
+ +  value  :  99kHz
+plls->C->value->smartdco->receiver->value->rx1 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->C->value->smartdco->receiver->value->rx1->value->pll :
+ -  parsed  :  None
+ +  parsed  :  B
+plls->C->value->smartdco->receiver->value->rx1->value->pll :
+ -  value  :  
+ +  value  :  PLL B
+plls->C->value->smartdco->receiver->value->rx2 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->C->value->smartdco->receiver->value->rx2->value->pll :
+ -  parsed  :  None
+ +  parsed  :  A
+plls->C->value->smartdco->receiver->value->rx2->value->pll :
+ -  value  :  
+ +  value  :  PLL A
+plls->C->value->smartdco->receiver->value->rx2->value :
+ -  tx  :  tx1
+ +  tx  :  tx2
+plls->C->value->smartdco->receiver->value->sl :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->C->value->smartdco->transmitter->tx1 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->C->value->smartdco->transmitter->tx1->value :
+ -  ppath  :  False
+ +  ppath  :  True
+plls->C->value->smartdco->transmitter->tx2 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->C->value->smartdco->transmitter->tx2->value :
+ -  ppath  :  False
+ +  ppath  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile178.py vs Profile179.py
+plls->C->value->smartdco->receiver->value->rx1->value->pll :
+ -  parsed  :  B
+ +  parsed  :  D
+plls->C->value->smartdco->receiver->value->rx1->value->pll :
+ -  value  :  PLL B
+ +  value  :  PLL D
+plls->C->value->smartdco->receiver->value->rx2->value->pll :
+ -  parsed  :  A
+ +  parsed  :  D
+plls->C->value->smartdco->receiver->value->rx2->value->pll :
+ -  value  :  PLL A
+ +  value  :  PLL D
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile179.py vs Profile180.py
+plls->D->value->free_running->value->clock_switch->frequency_ramp :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->D->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  parsed  :  1/25
+ +  parsed  :  1/50000
+plls->D->value->free_running->value->clock_switch->frequency_ramp->value->slope :
+ -  value  :  40000 ppm/s
+ +  value  :  20 ppm/s
+plls->D->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  parsed  :  None
+ +  parsed  :  1/16000000
+plls->D->value->free_running->value->clock_switch->hitless->ph_prop->value->slope :
+ -  value  :  Bandwidth
+ +  value  :  62.5 ns/s
+plls->D->value->free_running->value :
+ -  dco  :  False
+ +  dco  :  True
+plls->D->value->free_running->value->freq_lock_loss->value->delay :
+ -  parsed  :  1/250
+ +  parsed  :  1
+plls->D->value->free_running->value->freq_lock_loss->value->delay :
+ -  value  :  4 ms
+ +  value  :  1 s
+plls->D->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  parsed  :  1/500000
+ +  parsed  :  1/2500000
+plls->D->value->free_running->value->freq_lock_loss->value->ppm->value->clr :
+ -  value  :  2 ppm
+ +  value  :  0.4 ppm
+plls->D->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  parsed  :  1/250000
+ +  parsed  :  1/2500
+plls->D->value->free_running->value->freq_lock_loss->value->ppm->value->set :
+ -  value  :  4 ppm
+ +  value  :  400 ppm
+plls->D->value->free_running->value->holdover->average :
+ -  parsed  :  547/500
+ +  parsed  :  17/1000
+plls->D->value->free_running->value->holdover->average :
+ -  value  :  1.094 s
+ +  value  :  17 ms
+plls->D->value->free_running->value->holdover->delay :
+ -  parsed  :  547/1000
+ +  parsed  :  35/4
+plls->D->value->free_running->value->holdover->delay :
+ -  value  :  547 ms
+ +  value  :  8.75 s
+plls->D->value->free_running->value->ip_clock :
+ -  revertive  :  True
+ +  revertive  :  False
+plls->D->value->free_running->value->phase_lock_loss->value->delay :
+ -  parsed  :  1/250
+ +  parsed  :  25
+plls->D->value->free_running->value->phase_lock_loss->value->delay :
+ -  value  :  4 ms
+ +  value  :  25 s
+plls->D->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  parsed  :  1/500000000
+ +  parsed  :  1/5000000000
+plls->D->value->free_running->value->phase_lock_loss->value->phase_delta :
+ -  value  :  2 ns
+ +  value  :  0.2 ns
+plls->D->value->ptp :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->D->value->ptp->value->bw :
+ -  parsed  :  None
+ +  parsed  :  200
+plls->D->value->ptp->value->bw :
+ -  valid  :  False
+ +  valid  :  True
+plls->D->value->ptp->value->bw :
+ -  value  :  
+ +  value  :  199
+plls->D->value->ptp->value->phase_ur :
+ -  parsed  :  None
+ +  parsed  :  500
+plls->D->value->ptp->value->phase_ur :
+ -  valid  :  False
+ +  valid  :  True
+plls->D->value->ptp->value->phase_ur :
+ -  value  :  
+ +  value  :  10kHz
+plls->D->value->smartdco->receiver->value->rx1->value->pll :
+ -  parsed  :  None
+ +  parsed  :  C
+plls->D->value->smartdco->receiver->value->rx1->value->pll :
+ -  value  :  
+ +  value  :  PLL C
+plls->D->value->smartdco->receiver->value->rx2->value->pll :
+ -  parsed  :  None
+ +  parsed  :  C
+plls->D->value->smartdco->receiver->value->rx2->value->pll :
+ -  value  :  
+ +  value  :  PLL C
+plls->D->value->smartdco->receiver->value->sl :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->D->value->smartdco->receiver->value->sl->value :
+ -  parsed  :  16/15625
+ +  parsed  :  1/1000000
+plls->D->value->smartdco->receiver->value->sl->value :
+ -  value  :  1024 ppm/s
+ +  value  :  1 ppm/s
+plls->D->value->smartdco->transmitter->tx1 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->D->value->smartdco->transmitter->tx1->value :
+ -  ppath  :  False
+ +  ppath  :  True
+plls->D->value->smartdco->transmitter->tx2 :
+ -  enabled  :  False
+ +  enabled  :  True
+plls->D->value->smartdco->transmitter->tx2->value :
+ -  ppath  :  False
+ +  ppath  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile180.py vs Profile181.py
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile181.py vs Profile182.py
+inputtdc->edge :
+ -  0P  :  Rising
+ +  0P  :  Falling
+inputtdc->edge :
+ -  1N  :  Rising
+ +  1N  :  Falling
+inputtdc->edge :
+ -  3P  :  Rising
+ +  3P  :  Falling
+inputtdc->edge :
+ -  4N  :  Rising
+ +  4N  :  Falling
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile182.py vs Profile183.py
+inputtdc->edge :
+ -  0N  :  Rising
+ +  0N  :  Falling
+inputtdc->edge :
+ -  1P  :  Rising
+ +  1P  :  Falling
+inputtdc->edge :
+ -  2N  :  Rising
+ +  2N  :  Falling
+inputtdc->edge :
+ -  2P  :  Rising
+ +  2P  :  Falling
+inputtdc->edge :
+ -  3N  :  Rising
+ +  3N  :  Falling
+inputtdc->edge :
+ -  4P  :  Rising
+ +  4P  :  Falling
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile183.py vs Profile184.py
+inputtdc->tdcs->0 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->0->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  3P
+inputtdc->tdcs->0->value->clk1 :
+ -  value  :  
+ +  value  :  3P
+inputtdc->tdcs->0->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  1P
+inputtdc->tdcs->0->value->clk2 :
+ -  value  :  
+ +  value  :  1P
+inputtdc->tdcs->0->value->nsamples :
+ -  parsed  :  11
+ +  parsed  :  2
+inputtdc->tdcs->0->value->nsamples :
+ -  value  :  11
+ +  value  :  2
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile184.py vs Profile185.py
+inputtdc->tdcs->1 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->1->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  1P
+inputtdc->tdcs->1->value->clk1 :
+ -  value  :  
+ +  value  :  1P
+inputtdc->tdcs->1->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  1N
+inputtdc->tdcs->1->value->clk2 :
+ -  value  :  
+ +  value  :  1N
+inputtdc->tdcs->1->value->nsamples :
+ -  parsed  :  11
+ +  parsed  :  0
+inputtdc->tdcs->1->value->nsamples :
+ -  value  :  11
+ +  value  :  0
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile185.py vs Profile186.py
+inputtdc->tdcs->2 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->2->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  2P
+inputtdc->tdcs->2->value->clk1 :
+ -  value  :  
+ +  value  :  2P
+inputtdc->tdcs->2->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  0N
+inputtdc->tdcs->2->value->clk2 :
+ -  value  :  
+ +  value  :  0N
+inputtdc->tdcs->2->value->nsamples :
+ -  parsed  :  11
+ +  parsed  :  8
+inputtdc->tdcs->2->value->nsamples :
+ -  value  :  11
+ +  value  :  8
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile186.py vs Profile187.py
+inputtdc->tdcs->3 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->3->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  4P
+inputtdc->tdcs->3->value->clk1 :
+ -  value  :  
+ +  value  :  4P
+inputtdc->tdcs->3->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  1N
+inputtdc->tdcs->3->value->clk2 :
+ -  value  :  
+ +  value  :  1N
+inputtdc->tdcs->3->value->nsamples :
+ -  parsed  :  11
+ +  parsed  :  9
+inputtdc->tdcs->3->value->nsamples :
+ -  value  :  11
+ +  value  :  9
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile187.py vs Profile188.py
+inputtdc->tdcs->4 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->4->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  3N
+inputtdc->tdcs->4->value->clk1 :
+ -  value  :  
+ +  value  :  3N
+inputtdc->tdcs->4->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  1P
+inputtdc->tdcs->4->value->clk2 :
+ -  value  :  
+ +  value  :  1P
+inputtdc->tdcs->4->value->nsamples :
+ -  parsed  :  11
+ +  parsed  :  5
+inputtdc->tdcs->4->value->nsamples :
+ -  value  :  11
+ +  value  :  5
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile188.py vs Profile189.py
+inputtdc->tdcs->5 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->5->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  2N
+inputtdc->tdcs->5->value->clk1 :
+ -  value  :  
+ +  value  :  2N
+inputtdc->tdcs->5->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  4N
+inputtdc->tdcs->5->value->clk2 :
+ -  value  :  
+ +  value  :  4N
+inputtdc->tdcs->5->value->nsamples :
+ -  parsed  :  11
+ +  parsed  :  3
+inputtdc->tdcs->5->value->nsamples :
+ -  value  :  11
+ +  value  :  3
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile189.py vs Profile190.py
+inputtdc->tdcs->6 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->6->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  1N
+inputtdc->tdcs->6->value->clk1 :
+ -  value  :  
+ +  value  :  1N
+inputtdc->tdcs->6->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  2N
+inputtdc->tdcs->6->value->clk2 :
+ -  value  :  
+ +  value  :  2N
+inputtdc->tdcs->6->value->nsamples :
+ -  parsed  :  11
+ +  parsed  :  7
+inputtdc->tdcs->6->value->nsamples :
+ -  value  :  11
+ +  value  :  7
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile190.py vs Profile191.py
+inputtdc->tdcs->7 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->7->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  2P
+inputtdc->tdcs->7->value->clk1 :
+ -  value  :  
+ +  value  :  2P
+inputtdc->tdcs->7->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  3N
+inputtdc->tdcs->7->value->clk2 :
+ -  value  :  
+ +  value  :  3N
+inputtdc->tdcs->7->value->nsamples :
+ -  parsed  :  11
+ +  parsed  :  7
+inputtdc->tdcs->7->value->nsamples :
+ -  value  :  11
+ +  value  :  7
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile191.py vs Profile192.py
+inputtdc->tdcs->8 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->8->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  3N
+inputtdc->tdcs->8->value->clk1 :
+ -  value  :  
+ +  value  :  3N
+inputtdc->tdcs->8->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  1N
+inputtdc->tdcs->8->value->clk2 :
+ -  value  :  
+ +  value  :  1N
+inputtdc->tdcs->8->value->nsamples :
+ -  parsed  :  11
+ +  parsed  :  10
+inputtdc->tdcs->8->value->nsamples :
+ -  value  :  11
+ +  value  :  10
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile192.py vs Profile193.py
+inputtdc->tdcs->9 :
+ -  enabled  :  False
+ +  enabled  :  True
+inputtdc->tdcs->9->value->clk1 :
+ -  parsed  :  None
+ +  parsed  :  2N
+inputtdc->tdcs->9->value->clk1 :
+ -  value  :  
+ +  value  :  2N
+inputtdc->tdcs->9->value->clk2 :
+ -  parsed  :  None
+ +  parsed  :  3N
+inputtdc->tdcs->9->value->clk2 :
+ -  value  :  
+ +  value  :  3N
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile193.py vs Profile194.py
+inputtdc->tdcs->0 :
+ -  enabled  :  True
+ +  enabled  :  False
+inputtdc->tdcs->1 :
+ -  enabled  :  True
+ +  enabled  :  False
+inputtdc->tdcs->2 :
+ -  enabled  :  True
+ +  enabled  :  False
+inputtdc->tdcs->3 :
+ -  enabled  :  True
+ +  enabled  :  False
+inputtdc->tdcs->4 :
+ -  enabled  :  True
+ +  enabled  :  False
+inputtdc->tdcs->5 :
+ -  enabled  :  True
+ +  enabled  :  False
+inputtdc->tdcs->6 :
+ -  enabled  :  True
+ +  enabled  :  False
+inputtdc->tdcs->7 :
+ -  enabled  :  True
+ +  enabled  :  False
+inputtdc->tdcs->8 :
+ -  enabled  :  True
+ +  enabled  :  False
+inputtdc->tdcs->9 :
+ -  enabled  :  True
+ +  enabled  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile194.py vs Profile195.py
+eeprom->addr :
+ -  parsed  :  0
+ +  parsed  :  1
+eeprom->addr :
+ -  value  :  0
+ +  value  :  1
+eeprom :
+ -  ibus  :  None
+ +  ibus  :  i2c
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile195.py vs Profile196.py
+eeprom->addr :
+ -  parsed  :  1
+ +  parsed  :  5
+eeprom->addr :
+ -  value  :  1
+ +  value  :  5
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile196.py vs Profile197.py
+eeprom->addr :
+ -  parsed  :  5
+ +  parsed  :  7
+eeprom->addr :
+ -  value  :  5
+ +  value  :  7
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile197.py vs Profile198.py
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile198.py vs Profile199.py
+eeprom :
+ -  type  :  64
+ +  type  :  128
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile199.py vs Profile200.py
+eeprom->verify->block :
+ -  parsed  :  1
+ +  parsed  :  2
+eeprom->verify->block :
+ -  value  :  1
+ +  value  :  2
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile200.py vs Profile201.py
+eeprom :
+ -  type  :  128
+ +  type  :  256
+eeprom->verify->block :
+ -  parsed  :  2
+ +  parsed  :  1
+eeprom->verify->block :
+ -  value  :  2
+ +  value  :  1
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile201.py vs Profile202.py
+eeprom->verify->block :
+ -  parsed  :  1
+ +  parsed  :  2
+eeprom->verify->block :
+ -  value  :  1
+ +  value  :  2
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile202.py vs Profile203.py
+eeprom->verify->block :
+ -  parsed  :  2
+ +  parsed  :  4
+eeprom->verify->block :
+ -  value  :  2
+ +  value  :  4
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile203.py vs Profile204.py
+eeprom :
+ -  type  :  256
+ +  type  :  512
+eeprom->verify->block :
+ -  parsed  :  4
+ +  parsed  :  1
+eeprom->verify->block :
+ -  value  :  4
+ +  value  :  1
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile204.py vs Profile205.py
+eeprom->verify->block :
+ -  parsed  :  1
+ +  parsed  :  5
+eeprom->verify->block :
+ -  value  :  1
+ +  value  :  5
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile205.py vs Profile206.py
+eeprom->verify->block :
+ -  parsed  :  5
+ +  parsed  :  8
+eeprom->verify->block :
+ -  value  :  5
+ +  value  :  8
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile206.py vs Profile207.py
+eeprom :
+ -  type  :  512
+ +  type  :  1024
+eeprom->verify->block :
+ -  parsed  :  8
+ +  parsed  :  1
+eeprom->verify->block :
+ -  value  :  8
+ +  value  :  1
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile207.py vs Profile208.py
+eeprom->verify->block :
+ -  parsed  :  1
+ +  parsed  :  9
+eeprom->verify->block :
+ -  value  :  1
+ +  value  :  9
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile208.py vs Profile209.py
+eeprom->verify->block :
+ -  parsed  :  9
+ +  parsed  :  15
+eeprom->verify->block :
+ -  value  :  9
+ +  value  :  15
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile209.py vs Profile210.py
+phase_sync :
+ -  enabled  :  False
+ +  enabled  :  True
+phase_sync->value :
+ -  A  :  False
+ +  A  :  True
+phase_sync->value :
+ -  B  :  False
+ +  B  :  True
+phase_sync->value :
+ -  C  :  False
+ +  C  :  True
+phase_sync->value :
+ -  D  :  False
+ +  D  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile210.py vs Profile211.py
+phase_sync->value :
+ -  B  :  True
+ +  B  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile211.py vs Profile212.py
+phase_sync->value :
+ -  C  :  True
+ +  C  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile212.py vs Profile213.py
+phase_sync->value :
+ -  D  :  True
+ +  D  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile213.py vs Profile214.py
+phase_sync :
+ -  enabled  :  True
+ +  enabled  :  False
+phase_sync->value :
+ -  A  :  True
+ +  A  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile214.py vs Profile215.py
+interrupt->pll_outer_lol :
+ -  A  :  False
+ +  A  :  True
+interrupt->pll_outer_lol :
+ -  B  :  False
+ +  B  :  True
+interrupt->pll_outer_lol :
+ -  C  :  False
+ +  C  :  True
+interrupt->pll_outer_lol :
+ -  D  :  False
+ +  D  :  True
+interrupt->pll_outer_lol :
+ -  FT  :  False
+ +  FT  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile215.py vs Profile216.py
+interrupt->pll_inner_lol :
+ -  A  :  False
+ +  A  :  True
+interrupt->pll_inner_lol :
+ -  B  :  False
+ +  B  :  True
+interrupt->pll_inner_lol :
+ -  C  :  False
+ +  C  :  True
+interrupt->pll_inner_lol :
+ -  D  :  False
+ +  D  :  True
+interrupt->pll_inner_lol :
+ -  FT  :  False
+ +  FT  :  True
+interrupt->pll_inner_lol :
+ -  common  :  False
+ +  common  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile216.py vs Profile217.py
+interrupt->pll_ho_freeze :
+ -  A  :  False
+ +  A  :  True
+interrupt->pll_ho_freeze :
+ -  B  :  False
+ +  B  :  True
+interrupt->pll_ho_freeze :
+ -  C  :  False
+ +  C  :  True
+interrupt->pll_ho_freeze :
+ -  D  :  False
+ +  D  :  True
+interrupt->pll_ho_freeze :
+ -  FT  :  False
+ +  FT  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile217.py vs Profile218.py
+interrupt->pll_phase_lol :
+ -  A  :  False
+ +  A  :  True
+interrupt->pll_phase_lol :
+ -  B  :  False
+ +  B  :  True
+interrupt->pll_phase_lol :
+ -  C  :  False
+ +  C  :  True
+interrupt->pll_phase_lol :
+ -  D  :  False
+ +  D  :  True
+interrupt->pll_phase_lol :
+ -  FT  :  False
+ +  FT  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile218.py vs Profile219.py
+interrupt->input_closs :
+ -  0N  :  False
+ +  0N  :  True
+interrupt->input_closs :
+ -  0P  :  False
+ +  0P  :  True
+interrupt->input_closs :
+ -  1N  :  False
+ +  1N  :  True
+interrupt->input_closs :
+ -  1P  :  False
+ +  1P  :  True
+interrupt->input_closs :
+ -  2N  :  False
+ +  2N  :  True
+interrupt->input_closs :
+ -  2P  :  False
+ +  2P  :  True
+interrupt->input_closs :
+ -  3N  :  False
+ +  3N  :  True
+interrupt->input_closs :
+ -  3P  :  False
+ +  3P  :  True
+interrupt->input_closs :
+ -  4N  :  False
+ +  4N  :  True
+interrupt->input_closs :
+ -  4P  :  False
+ +  4P  :  True
+interrupt->input_closs :
+ -  INTSYNC  :  False
+ +  INTSYNC  :  True
+interrupt->input_closs :
+ -  OCXO  :  False
+ +  OCXO  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile219.py vs Profile220.py
+interrupt->input_fine_drift :
+ -  0N  :  False
+ +  0N  :  True
+interrupt->input_fine_drift :
+ -  0P  :  False
+ +  0P  :  True
+interrupt->input_fine_drift :
+ -  1N  :  False
+ +  1N  :  True
+interrupt->input_fine_drift :
+ -  1P  :  False
+ +  1P  :  True
+interrupt->input_fine_drift :
+ -  2N  :  False
+ +  2N  :  True
+interrupt->input_fine_drift :
+ -  2P  :  False
+ +  2P  :  True
+interrupt->input_fine_drift :
+ -  3N  :  False
+ +  3N  :  True
+interrupt->input_fine_drift :
+ -  3P  :  False
+ +  3P  :  True
+interrupt->input_fine_drift :
+ -  4N  :  False
+ +  4N  :  True
+interrupt->input_fine_drift :
+ -  4P  :  False
+ +  4P  :  True
+interrupt->input_fine_drift :
+ -  INTSYNC  :  False
+ +  INTSYNC  :  True
+interrupt->input_fine_drift :
+ -  OCXO  :  False
+ +  OCXO  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile220.py vs Profile221.py
+interrupt->input_coarse_drift :
+ -  0N  :  False
+ +  0N  :  True
+interrupt->input_coarse_drift :
+ -  0P  :  False
+ +  0P  :  True
+interrupt->input_coarse_drift :
+ -  1N  :  False
+ +  1N  :  True
+interrupt->input_coarse_drift :
+ -  1P  :  False
+ +  1P  :  True
+interrupt->input_coarse_drift :
+ -  2N  :  False
+ +  2N  :  True
+interrupt->input_coarse_drift :
+ -  2P  :  False
+ +  2P  :  True
+interrupt->input_coarse_drift :
+ -  3N  :  False
+ +  3N  :  True
+interrupt->input_coarse_drift :
+ -  3P  :  False
+ +  3P  :  True
+interrupt->input_coarse_drift :
+ -  4N  :  False
+ +  4N  :  True
+interrupt->input_coarse_drift :
+ -  4P  :  False
+ +  4P  :  True
+interrupt->input_coarse_drift :
+ -  INTSYNC  :  False
+ +  INTSYNC  :  True
+interrupt->input_coarse_drift :
+ -  OCXO  :  False
+ +  OCXO  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile221.py vs Profile222.py
+interrupt->eeprom :
+ -  defect_interrupt  :  False
+ +  defect_interrupt  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile222.py vs Profile223.py
+interrupt->tdc :
+ -  A  :  False
+ +  A  :  True
+interrupt->tdc :
+ -  B  :  False
+ +  B  :  True
+interrupt->tdc :
+ -  C  :  False
+ +  C  :  True
+interrupt->tdc :
+ -  D  :  False
+ +  D  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile223.py vs Profile224.py
+inputs_diff :
+ -  0P  :  False
+ +  0P  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile224.py vs Profile225.py
+inputs_diff :
+ -  1P  :  False
+ +  1P  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile225.py vs Profile226.py
+inputs_diff :
+ -  2P  :  False
+ +  2P  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile226.py vs Profile227.py
+inputs_diff :
+ -  3P  :  False
+ +  3P  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile227.py vs Profile228.py
+inputs_diff :
+ -  4P  :  False
+ +  4P  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile228.py vs Profile229.py
+inputs_diff :
+ -  0P  :  True
+ +  0P  :  False
+inputs_diff :
+ -  1P  :  True
+ +  1P  :  False
+inputs_diff :
+ -  2P  :  True
+ +  2P  :  False
+inputs_diff :
+ -  3P  :  True
+ +  3P  :  False
+inputs_diff :
+ -  4P  :  True
+ +  4P  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile229.py vs Profile230.py
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile230.py vs Profile231.py
+vdd_in :
+ -  parsed  :  1.8
+ +  parsed  :  2.5
+vdd_in :
+ -  value  :  1.8V
+ +  value  :  2.5V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile231.py vs Profile232.py
+vdd_in :
+ -  parsed  :  2.5
+ +  parsed  :  3.3
+vdd_in :
+ -  value  :  2.5V
+ +  value  :  3.3V
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile232.py vs Profile233.py
+acg->value->clock_mode :
+ -  parsed  :  0
+ +  parsed  :  1
+acg->value->clock_mode :
+ -  value  :  00
+ +  value  :  01
+outputs->value->0 :
+ -  enabled  :  True
+ +  enabled  :  False
+outputs->value->4 :
+ -  enabled  :  True
+ +  enabled  :  False
+outputs->value->8 :
+ -  enabled  :  True
+ +  enabled  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile233.py vs Profile234.py
+acg->value->clock_mode :
+ -  parsed  :  1
+ +  parsed  :  2
+acg->value->clock_mode :
+ -  value  :  01
+ +  value  :  10
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile234.py vs Profile235.py
+acg->value->clock_mode :
+ -  parsed  :  2
+ +  parsed  :  3
+acg->value->clock_mode :
+ -  value  :  10
+ +  value  :  11
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile235.py vs Profile236.py
+acg :
+ -  enabled  :  True
+ +  enabled  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile236.py vs Profile237.py
+acg :
+ -  enabled  :  False
+ +  enabled  :  True
+acg->value->clock_mode :
+ -  parsed  :  3
+ +  parsed  :  0
+acg->value->clock_mode :
+ -  value  :  11
+ +  value  :  00
+#############################################################################################
+
+

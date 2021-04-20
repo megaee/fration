@@ -1,0 +1,379 @@
+#############################################################################################
+Processing file Profile1_json.json vs Profile2_json.json
+user_inputs->comms->spi :
+ -  wires  :  4
+ +  wires  :  3
+user_inputs->comms :
+ -  type  :  i2c
+ +  type  :  spi
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile2_json.json vs Profile3_json.json
+user_inputs->comms->spi :
+ -  wires  :  3
+ +  wires  :  4
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile3_json.json vs Profile4_json.json
+user_inputs->comms :
+ -  type  :  spi
+ +  type  :  i2c
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile4_json.json vs Profile5_json.json
+algorithm->INPUT->0P->divn1 :
+ -  int  :  2
+ +  int  :  4
+algorithm->INPUT->0P :
+ -  fin_int  :  25000000
+ +  fin_int  :  12500000
+algorithm->PLL->A->divn :
+ -  int  :  46
+ +  int  :  100
+algorithm->PLL->A->divn :
+ -  mode_int_frac  :  0
+ +  mode_int_frac  :  1
+algorithm->PLL->A->divn :
+ -  numerator  :  1272582903
+ +  numerator  :  0
+algorithm->PLL->A->divn2 :
+ -  int  :  200
+ +  int  :  400
+algorithm->PLL->A :
+ -  icp  :  0
+ +  icp  :  1
+algorithm->PLL->FT->divn :
+ -  int  :  19
+ +  int  :  41
+algorithm->PLL->FT :
+ -  fvco  :  2052000000
+ +  fvco  :  2050000000
+algorithm :
+ -  WARNING  :  []
+ +  WARNING  :  ['PLLA: There is FVCO XO clash. In-band spurs might be present in the phase noise profile of the outputs derived from PLLA']
+user_inputs->crystal :
+ -  freq  :  54 MHz
+ +  freq  :  25 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile5_json.json vs Profile6_json.json
+user_inputs->crystal :
+ -  freq  :  25 MHz
+ +  freq  :  250 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile6_json.json vs Profile7_json.json
+user_inputs->crystal :
+ -  doubler  :  True
+ +  doubler  :  False
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile7_json.json vs Profile8_json.json
+user_inputs->crystal :
+ -  freq  :  250 MHz
+ +  freq  :  25 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile8_json.json vs Profile9_json.json
+user_inputs->crystal :
+ -  doubler  :  True
+ +  doubler  :  False
+user_inputs->crystal :
+ -  freq  :  54 MHz
+ +  freq  :  25 MHz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile9_json.json vs Profile10_json.json
+user_inputs->crystal :
+ -  mode  :  LFF CL=8pF
+ +  mode  :  EX TCXO (AC)
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile10_json.json vs Profile11_json.json
+user_inputs->crystal :
+ -  mode  :  EX TCXO (AC)
+ +  mode  :  EX TCXO (DC)
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile11_json.json vs Profile12_json.json
+user_inputs->crystal :
+ -  mode  :  EX TCXO (DC)
+ +  mode  :  LFF CL=12pF
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile12_json.json vs Profile13_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile13_json.json vs Profile14_json.json
+user_inputs->inputs->0P->value->clock_switch :
+ -  fd_coarse  :  False
+ +  fd_coarse  :  True
+user_inputs->inputs->0P->value->clock_switch :
+ -  fd_fine  :  False
+ +  fd_fine  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile14_json.json vs Profile15_json.json
+user_inputs->inputs->0P->value :
+ -  freq  :  50MHz
+ +  freq  :  0.5 Hz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile15_json.json vs Profile16_json.json
+user_inputs->inputs->0P->value :
+ -  freq  :  250 MHz
+ +  freq  :  0.5 Hz
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile16_json.json vs Profile17_json.json
+user_inputs->inputs->0P->value :
+ -  clock_couple  :  dc
+ +  clock_couple  :  ac
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile17_json.json vs Profile18_json.json
+user_inputs->inputs->0P->value :
+ -  clock_inversion  :  False
+ +  clock_inversion  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile18_json.json vs Profile19_json.json
+user_inputs->inputs->0P->value :
+ -  clock_gap  :  False
+ +  clock_gap  :  True
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile19_json.json vs Profile20_json.json
+user_inputs->inputs->0P->value :
+ -  valid_timer  :  128 ms
+ +  valid_timer  :  2 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile20_json.json vs Profile21_json.json
+user_inputs->inputs->0P->value :
+ -  valid_timer  :  2 ms
+ +  valid_timer  :  256 ms
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile21_json.json vs Profile22_json.json
+user_inputs->inputs->0P->value :
+ -  valid_timer  :  256 ms
+ +  valid_timer  :  64 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile22_json.json vs Profile23_json.json
+user_inputs->inputs->0P->value :
+ -  valid_timer  :  64 s
+ +  valid_timer  :  1 s
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile23_json.json vs Profile24_json.json
+user_inputs->inputs->0P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  7
+user_inputs->inputs->0P->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  7
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile24_json.json vs Profile25_json.json
+user_inputs->inputs->0P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  7
+ +  parsed  :  12
+user_inputs->inputs->0P->value->clock_loss->value->edge_trigger :
+ -  value  :  7
+ +  value  :  12
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile25_json.json vs Profile26_json.json
+user_inputs->inputs->0P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  12
+ +  parsed  :  3
+user_inputs->inputs->0P->value->clock_loss->value->edge_trigger :
+ -  value  :  12
+ +  value  :  3
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile26_json.json vs Profile27_json.json
+user_inputs->inputs->0P->value->clock_loss->value->edge_trigger :
+ -  parsed  :  3
+ +  parsed  :  16
+user_inputs->inputs->0P->value->clock_loss->value->edge_trigger :
+ -  value  :  3
+ +  value  :  16
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile27_json.json vs Profile28_json.json
+user_inputs->inputs->0P->value->clock_loss->value->edge_clear :
+ -  parsed  :  2
+ +  parsed  :  1
+user_inputs->inputs->0P->value->clock_loss->value->edge_clear :
+ -  value  :  2
+ +  value  :  1
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile28_json.json vs Profile29_json.json
+user_inputs->inputs->0P->value->clock_loss->value->edge_clear :
+ -  parsed  :  1
+ +  parsed  :  5
+user_inputs->inputs->0P->value->clock_loss->value->edge_clear :
+ -  value  :  1
+ +  value  :  5
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile29_json.json vs Profile30_json.json
+user_inputs->inputs->0P->value->clock_loss->value->edge_clear :
+ -  parsed  :  5
+ +  parsed  :  12
+user_inputs->inputs->0P->value->clock_loss->value->edge_clear :
+ -  value  :  5
+ +  value  :  12
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile30_json.json vs Profile31_json.json
+user_inputs->inputs->0P->value->clock_loss->value->edge_clear :
+ -  parsed  :  12
+ +  parsed  :  15
+user_inputs->inputs->0P->value->clock_loss->value->edge_clear :
+ -  value  :  12
+ +  value  :  15
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile31_json.json vs Profile32_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile32_json.json vs Profile33_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile33_json.json vs Profile34_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile34_json.json vs Profile35_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile35_json.json vs Profile36_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile36_json.json vs Profile37_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile37_json.json vs Profile38_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile38_json.json vs Profile39_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile39_json.json vs Profile40_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile40_json.json vs Profile41_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile41_json.json vs Profile42_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile42_json.json vs Profile43_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile43_json.json vs Profile44_json.json
+#############################################################################################
+
+
+#############################################################################################
+Processing file Profile44_json.json vs Profile45_json.json
+user_inputs->inputs->0P->value->plls :
+ -  B  :  False
+ +  B  :  True
+user_inputs->plls->B :
+ -  enabled  :  False
+ +  enabled  :  True
+user_inputs->plls->B->value->free_running :
+ -  enabled  :  False
+ +  enabled  :  True
+user_inputs->plls->B->value->free_running->value->sw_oc->value->fast :
+parsed key not in state2 
+
